@@ -105,7 +105,7 @@ Le motivazioni alla base dell'istituzione di un'azienda possono essere diverse, 
 
 ### Da cosa è costituita un'azienda
 
-![il lavoro, il capitale e l'organizzazione](.gitbook/assets/image.png)
+![il lavoro, il capitale e l'organizzazione](<.gitbook/assets/image (1).png>)
 
 Da tre cose:
 
