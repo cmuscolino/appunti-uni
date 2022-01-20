@@ -50,7 +50,7 @@ Massimo risultato col minimo sforzo.
 Sin dall'antichità, gli atti relativi al soddisfacimento dei bisogni umani sono svolti da **gruppi economici**. In ordine:
 
 * **autarchico**: gruppo **chiuso**; ha una politica rivolta **all'oggi proprio e al domani proprio**. Si occupa del consumo e di tutta la produzione e produceva un surplus che conservano per loro stessi.
-* **specializzato**: si apre al commercio con altri gruppi; si specializza in alcune produzioni e acquista le altre presso altri gruppi economici. Ha sia la politica dall'oggi proprio al domani proprio, dall'oggi e domani **altrui**.
+* **specializzato**: si apre al commercio con altri gruppi; si specializza in alcune produzioni e acquista le altre presso altri gruppi economici. Ha sia la politica dall'oggi proprio al domani proprio, dall'oggi e domani **altrui**. Qui, ha origine lo **scambio**
 * **diversificato**: nasce il gruppo **bipartito** con due entità: gruppo economico **di produzione** e **di consumo** che si dedicano rispettivamente ad attività **creative** e a quelle **erogative**. Esempio: famiglie (consumo), imprese (produzione).
 
 ### Differenza tra soddisfacimento diretto e indiretto
@@ -128,12 +128,12 @@ L'organo volitivo.
 ### Quali sono le fasi della vita aziendale?
 
 1. Si decide di mettere in piedi un'azienda: si ha un'**idea** e si **progettano** le linee fondamentali. Questa attività la svolge il **soggetto istituzionale** (organo volitivo). Questa fase prende il nome di **lavoro volitivo**.
-2. Ci si mettono i soldi: **capitale monetario (o finanziario)**. Questo capitale fa il suo ingresso in azienda in forma **monetaria**
-3. Si ha l'acquisizione dei **fattori produttivi**: il **lavoro** (direttivo ed esecutivo), e **utilità** (materiali, come i macchinari, e immateriali come i brevetti). Con la loro acquisizione si ha il passaggio da **capitale generico (o investito)** al **capitale specifico (o disponibile)**
+2. Ci si mettono i soldi: **capitale monetario (o capitale finanziario)**. Questo capitale fa il suo ingresso in azienda in forma **monetaria**
+3. Si ha l'acquisizione dei **fattori produttivi**: il **lavoro** (direttivo ed esecutivo), e **utilità** (materiali, come i macchinari, e immateriali come i brevetti). Con l'acquisizione dei fattori produttivi si ha il passaggio da **capitale generico (o investito)** al **capitale specifico (o disponibile)**
 
 #### Capacità vs. utilità potenziale - Attivazione del capitale
 
-Il **lavoro** all'inizio è **capacità potenziale**, mentre il **capitale** è **utilità potenziale**. Tramite un **piano**, devo **sfruttare le potenzialità**, per fare in modo che le capacità **insite** agiscano sull'utilità del capitale. Il capitale in questo modo passa da **inerte** a **attivato**.
+Il **lavoro** all'inizio è **capacità potenziale**, mentre il **capitale** è **utilità potenziale**. Tramite un **piano**, devo **sfruttare le potenzialità**, per fare in modo che le capacità **insite** agiscano sull'utilità del capitale. Il capitale in questo modo passa da **capitale inerte** a **capitale attivato**.
 
 ## Organizzazione
 
@@ -171,7 +171,7 @@ Il **sistema delle funzioni** è il collegamento e l'interdipendenza tra queste 
 Raggruppiamo le funzioni in due grandi gruppi:
 
 * **processi**: attività aziendali (processi di vendita e produzione)
-* **combinazioni di processi**
+* **combinazioni di processi**: raggruppamenti di funzioni amministrative
 
 ### Incertezza
 
@@ -214,7 +214,7 @@ Il **titolare** (conosciuto anche come **soggetto istituzionale** o **imprendito
 * contrae la **titolarità dei diritti e delle obbligazioni**
 * **sopporta il rischio**
 * presta il proprio lavoro **sia volitivo che direttivo**
-* apporta (ci mette) il **capitale**
+* apporta (ci mette) il **capitale** (conosciuto come **capitale di rischio**)
 * **esercita il potere decisionale**
 
 ### Accollo delle responsabilità
@@ -225,7 +225,7 @@ Spesso il titolare non può svolgere tutto da solo sia dal punto di vista delle 
   * **dipendenti**
   * **autonomi** (ha più libertà)
 * mercato del **capitale** (cercare fornitori di capitale)
-  * di rischio (**denaro proprio** dell'imprenditore)
+  * **capitale di rischio** (**denaro proprio** dell'imprenditore)
   * **di credito**
 
 Nell'azienda individuale, il titolare può delegare ad un'altra persone il potere di decidere le linee fondamentali della gestione, ossia il **direttore/amministratore**.
@@ -238,7 +238,7 @@ Il **potere decisionale** è nelle mani dell'**assemblea dei soci** (**consiglio
 
 Il **rischio** resta ai soci ma **limitatamente** all'importo delle **azioni** sottoscritte.
 
-La **responsabilità** si trasferisce alla società, in virtù del riconoscimento legale della personalità giuridica. **La società è il soggetto giuridico.**
+La **responsabilità,** incluse titolarità dei diritti e degli obblighi, si trasferisce alla società, in virtù del riconoscimento legale della personalità giuridica. **La società è il soggetto giuridico.**
 
 ## Azienda e ordine
 
@@ -282,17 +282,17 @@ L'ambiente è in continuo cambiamento, e l'azienda deve essere adattabile al cam
 
 L'ordine è il **presupposto** dell'**economicità** (convenienza economica).
 
-Può essere di tipo:
+Possono esserci tre tipi di ordine:
 
-* **combinatorio**: riguarda i fattori produttivi (tutti gli elementi necessari nella produzione di un bene)
-* **sistematico**: operazioni
-* **composizione**: rapporti con l'ambiente
+* **ordine combinatorio**: riguarda i fattori produttivi (tutti gli elementi necessari nella produzione di un bene)
+* **ordine sistematico**: operazioni
+* **ordine di composizione**: rapporti con l'ambiente
 
 Ciascuno di loro si manifesta **nella qualità, nel tempo e nella quantità.**
 
 ## Equilibrio economico e flussi
 
-Se i ricavi sono tali da reintegrare oltre che i costi storici (quelli iniziali), anche il deficit dato dalla differenza tra i costi stessi ed i costi prospettici di riacquisto dei fattori, allora quello è un **equilibrio economico**.
+Se i ricavi sono tali da reintegrare oltre che i costi storici (quelli iniziali), **anche il deficit** dato dalla differenza tra i costi stessi ed i costi prospettici di riacquisto dei fattori **(di ricostituzione)**, allora quello è un **equilibrio economico**.
 
 ### Costi vs. Ricavi
 
@@ -305,7 +305,7 @@ I **ricavi** "reintegrano l'energia" dell'azienda tramite la **vendita del prodo
 * `R >= C`: **inclusione** tra i costi dei fattori produttivi del **costo del capitale di rischio**
 * `R >= C + M`: **esclusione** tra i costi dei fattori produttivi del **costo del capitale di rischio**
 
-Nella seconda formula, M sono i costi figurativi (come i compensi al titolare e ai dipendenti, quello per il rischio sopportato con l-investimento, e interesse patrimoniale)
+Nella seconda formula, M sono i costi figurativi (come i compensi al titolare e ai dipendenti, quello per il rischio sopportato dal titolare con l'investimento, conosciuto come **interesse patrimoniale**)
 
 ### Redditività vs. Economicità
 
@@ -323,4 +323,43 @@ La **forza di reddito** è la capacità dell'azienda di produrre redditi positiv
 
 La proiezione nel tempo dell'equilibrio economico richiede la considerazione dei costi e dei ricavi (attuali e futuri).
 
-È una previsione, come un andameno sul grafico.
+È una previsione, come un andamento sul grafico.
+
+## Imprenditorialità
+
+L'**imprenditorialità** è l'**insieme delle qualità necessarie** per svolgere con successo il ruolo di imprenditore.
+
+Queste qualità consistono nella **volontà** e **capacità** di promuovere ed organizzare un'impresa economica, e **disponibilità** ad affrontare i rischi.
+
+**È alla base di tutto lo sviluppo e le invenzioni della civiltà umana.**
+
+### Orientamento imprenditorie
+
+L'attitudine all'imprenditorialità (o **orientamento imprenditoriale**) si manifesta nell'**ideazione**, ma anche nell'**avviamento e gestione** dell'attività.
+
+Nello specifico:
+
+* **ricerca** di soluzioni creative, sfida o confronto con altre imprese per raggiungere sviluppo e miglioramento di prodotti o servizi
+* **innovatività,** usare nuove tecnologie e nuove tecniche
+* **propensione al rischio**, intraprendere nuovi progetti avventurandosi in ambiti incerti
+* **proattività**, intensità con la quale si ricercano nuove opportunità. Chi è spesso proattivo vede le opportunità prima degli altri
+
+### Imprenditore
+
+L'**imprenditore** è **colui che ha avuto un'idea unica** nella sua mente, e a proprio rischio **l'ha messa in pratica investendo del denaro** (proprio o altrui).
+
+È fermamente convinto delle sue decisioni e convinzioni, nonostante gli ostacoli e le risorse limitate; **non si ferma davanti a nulla**.
+
+Inoltre, **impara dai propri errori e fallimenti**, e cerca di usarli come trampolino di lancio verso il successo.
+
+![le caratteristiche che deve avere un imprenditore](<.gitbook/assets/Pasted image 20220120133541.png>)
+
+È in grado, tra le altre cose, di generare una **crescita economica**, capace di **rompere gli schemi** esistenti e consolidati.
+
+### Manager
+
+Il **manager** come l'imprenditore, organizza coordina, dirige, innova e trova soluzioni creative, ma a differenza dell'imprenditore, **non rischia alcun capitale** . Non è un visionario, e crea ricchezza per goderne.
+
+### Differenza tra imprenditore e manager
+
+La differenza tra imprenditore e manger sta nel fatto che **l'imprenditore rischia il suo denaro** ed è colui che ha avuto l'idea (è un visionario), mentre il **manager rischia solo lo stipendio**
