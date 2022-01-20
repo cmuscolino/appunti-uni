@@ -1,7 +1,7 @@
 ---
 description: >-
   Riassunto delle slide di OGA. Grazie a: Hazem, per gli schemi suoi personali
-  pdf
+  pdf + riassunti; Damiano, meme e le rielaborazioni
 ---
 
 # OGA
@@ -104,6 +104,8 @@ Le motivazioni alla base dell'istituzione di un'azienda possono essere diverse, 
   * enti socio-politici
 
 ### Da cosa è costituita un'azienda
+
+![il lavoro, il capitale e l'organizzazione](.gitbook/assets/image.png)
 
 Da tre cose:
 
