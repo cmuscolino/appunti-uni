@@ -290,11 +290,11 @@ Può essere di tipo:
 
 Ciascuno di loro si manifesta **nella qualità, nel tempo e nella quantità.**
 
-### Equilibrio economico e flussi
+## Equilibrio economico e flussi
 
 Se i ricavi sono tali da reintegrare oltre che i costi storici (quelli iniziali), anche il deficit dato dalla differenza tra i costi stessi ed i costi prospettici di riacquisto dei fattori, allora quello è un **equilibrio economico**.
 
-#### Costi vs. Ricavi
+### Costi vs. Ricavi
 
 I costi "cedono energia" dell'azienda tramite l'**acquisizione dei fattori produttivi** e **l'utilizzo dei fattori produttivi**.
 
@@ -307,7 +307,7 @@ I **ricavi** "reintegrano l'energia" dell'azienda tramite la **vendita del prodo
 
 Nella seconda formula, M sono i costi figurativi (come i compensi al titolare e ai dipendenti, quello per il rischio sopportato con l-investimento, e interesse patrimoniale)
 
-#### Redditività vs. Economicità
+### Redditività vs. Economicità
 
 La **redditività** esprime la capacità della gestione di **generare redditi positivi**.
 
@@ -315,11 +315,11 @@ L'**economicità** esprime la capacità della gestione di mettersi in **equilibr
 
 I due coincidono quando il reddito prodotto è equo ed è assicurato per un lungo periodo di tempo.
 
-#### Forza di reddito
+### Forza di reddito
 
 La **forza di reddito** è la capacità dell'azienda di produrre redditi positivi in maniera autonoma.
 
-#### Proiezione
+### Proiezione
 
 La proiezione nel tempo dell'equilibrio economico richiede la considerazione dei costi e dei ricavi (attuali e futuri).
 
