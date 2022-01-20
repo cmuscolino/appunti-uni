@@ -1,7 +1,7 @@
 ---
 description: >-
-  Riassunto delle slide di OGA. Grazie a: Hazem, per gli schemi suoi personali
-  pdf + riassunti; Damiano, meme e le rielaborazioni
+  Materiale originale: prof.ssa Francesca Castaldo.Grazie a: Hazem, per gli
+  schemi suoi personali pdf + riassunti; Damiano, meme e le rielaborazioni
 ---
 
 # OGA
