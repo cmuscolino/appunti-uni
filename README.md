@@ -50,7 +50,7 @@ Massimo risultato col minimo sforzo.
 Sin dall'antichità, gli atti relativi al soddisfacimento dei bisogni umani sono svolti da **gruppi economici**. In ordine:
 
 * **autarchico**: gruppo **chiuso**; ha una politica rivolta **all'oggi proprio e al domani proprio**. Si occupa del consumo e di tutta la produzione e produceva un surplus che conservano per loro stessi.
-* **specializzato**: si apre al commercio con altri gruppi; si specializza in alcune produzioni e acquista le altre presso altri gruppi economici. Ha sia la politica dall'oggi proprio al domani proprio, dall'oggi e domani **altrui**. Qui, ha origine lo **scambio**
+* **specializzato**: si apre al commercio con altri gruppi; si specializza in alcune produzioni e acquista le altre presso altri gruppi economici. Ha sia la politica dall'oggi proprio al domani proprio che dall'oggi e domani **altrui**. Qui, ha origine lo **scambio**
 * **diversificato**: nasce il gruppo **bipartito** con due entità: gruppo economico **di produzione** e **di consumo** che si dedicano rispettivamente ad attività **creative** e a quelle **erogative**. Esempio: famiglie (consumo), imprese (produzione).
 
 ### Differenza tra soddisfacimento diretto e indiretto
@@ -272,11 +272,11 @@ Deriva dalla somma delle singoli componenti (lavoro e capitale)
 
 Un sistema è:
 
-* dinamico: carattereizzato da un movimento continuo degli elementi che lo compongono
-* strumentale: poiché è lo strumento attraverso il quale gli individui soddisfano i loro bisogni
-* aperto: si sviluppa in collegamento continuo con l'ambiente esterno, dal quale acquisisce fattori produttivi e cede prodotti
+* **dinamico**: caratterizzato da un movimento continuo degli elementi che lo compongono
+* **strumentale**: poiché è lo strumento attraverso il quale gli individui soddisfano i loro bisogni
+* **aperto**: si sviluppa in collegamento continuo con l'ambiente esterno, dal quale acquisisce fattori produttivi e cede prodotti
 
-L'ambiente è in continuo cambiamento, e l'azienda deve essere adattabile al cambiamento.
+L'ambiente è in continuo cambiamento, e l'azienda **deve essere adattabile al cambiamento**.
 
 ## L'ordine
 
@@ -300,7 +300,7 @@ I costi "cedono energia" dell'azienda tramite l'**acquisizione dei fattori produ
 
 I **ricavi** "reintegrano l'energia" dell'azienda tramite la **vendita del prodotto ottenuto coi fattori**
 
-**Le leggi magiche**
+### **Le leggi magiche**
 
 * `R >= C`: **inclusione** tra i costi dei fattori produttivi del **costo del capitale di rischio**
 * `R >= C + M`: **esclusione** tra i costi dei fattori produttivi del **costo del capitale di rischio**
@@ -323,7 +323,7 @@ La **forza di reddito** è la capacità dell'azienda di produrre redditi positiv
 
 La proiezione nel tempo dell'equilibrio economico richiede la considerazione dei costi e dei ricavi (attuali e futuri).
 
-È una previsione, come un andamento sul grafico.
+È una previsione, come un andamento su un grafico.
 
 ## Imprenditorialità
 
@@ -333,7 +333,7 @@ Queste qualità consistono nella **volontà** e **capacità** di promuovere ed o
 
 **È alla base di tutto lo sviluppo e le invenzioni della civiltà umana.**
 
-### Orientamento imprenditorie
+### Orientamento imprenditoriale
 
 L'attitudine all'imprenditorialità (o **orientamento imprenditoriale**) si manifesta nell'**ideazione**, ma anche nell'**avviamento e gestione** dell'attività.
 
@@ -342,7 +342,7 @@ Nello specifico:
 * **ricerca** di soluzioni creative, sfida o confronto con altre imprese per raggiungere sviluppo e miglioramento di prodotti o servizi
 * **innovatività,** usare nuove tecnologie e nuove tecniche
 * **propensione al rischio**, intraprendere nuovi progetti avventurandosi in ambiti incerti
-* **proattività**, intensità con la quale si ricercano nuove opportunità. Chi è spesso proattivo vede le opportunità prima degli altri
+* **proattività**, intensità con la quale si ricercano nuove opportunità. Chi è spesso proattivo vede le opportunità prima degli altri e agisce prima.
 
 ### Imprenditore
 
@@ -362,4 +362,4 @@ Il **manager** come l'imprenditore, organizza coordina, dirige, innova e trova s
 
 ### Differenza tra imprenditore e manager
 
-La differenza tra imprenditore e manger sta nel fatto che **l'imprenditore rischia il suo denaro** ed è colui che ha avuto l'idea (è un visionario), mentre il **manager rischia solo lo stipendio**
+La differenza tra imprenditore e manger sta nel fatto che **l'imprenditore rischia il suo denaro** ed è colui che ha avuto l'idea (è un visionario), mentre il **manager rischia "solo" lo stipendio,** comunque soldi non suoi.
