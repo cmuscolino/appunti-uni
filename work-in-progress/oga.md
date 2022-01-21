@@ -105,7 +105,7 @@ Le motivazioni alla base dell'istituzione di un'azienda possono essere diverse, 
 
 ### Da cosa è costituita un'azienda
 
-![il lavoro, il capitale e l'organizzazione](<../.gitbook/assets/image (1) (1).png>)
+![il lavoro, il capitale e l'organizzazione](<../.gitbook/assets/image (1) (1) (1).png>)
 
 Da tre cose:
 
@@ -368,11 +368,11 @@ La differenza tra imprenditore e manger sta nel fatto che **l'imprenditore risch
 
 Il **modello di business** consente di **descrivere** in modo semplice un business e trattarlo per creare nuove alternative strategiche.
 
-#### Da come è composto
+### Da cosa è composto
 
 È composto da **elementi che mostrano la logica** con cui un'azienda intende **creare valore**.
 
-### Gli elementi di un modello di business
+## Gli elementi di un modello di business
 
 * **segmenti di clientela**: si rivolge a uno o più segmenti
 * **partner chiave**: alcune risorse si ricavano da fuori
@@ -563,4 +563,98 @@ Job **sociali**: come il cliente **vuole apparire** agli occhi della società
 Job **emozionali**: come si **vuole sentire** il cliente
 
 * Ikea o Amazon: ci tengono a far sentire il cliente come se fosse a casa e danno una sensazione di sicurezza
+
+## Progettare
+
+L’attività del progettista consiste nel **generare nuove possibilità** e **creare valore** per gli utenti.
+
+C'è una **continua ricerca** del miglior modo possibile per **trovare la novità**, scoprire ciò che ancora non è stato esplorato e raggiungere ciò che funziona (una specie di innovazione ma "gestionale").
+
+## Agile UCD
+
+![](<../.gitbook/assets/image (1).png>)
+
+Se non conosci o non hai mai fatto IUM, le fasi vengono comunque brevemente spiegate. È comunque opportuno rileggerle quindi si suggerisce di **non saltare questa sezione.**
+
+Fasi:
+
+1. Comprensione della clientela
+2. Ideazione
+3. Il pensiero visuale
+4. Prototipazione
+5. Storytelling
+6. Scenari
+
+### Comprensione clientela e profilazione
+
+Bisogna tenere in considerazione la **prospettiva dei clienti**, ossia il loro punto di vista.
+
+Questo tipo di approccio può portare alla scoperta di opportunità completamente nuove; lo si fa attraverso interviste e questionari tipicamente, e bisogna stare molto attenti a prendere in considerazione i **lead user** (utenti con **need speciali** al quale probabilmente siamo interessati) e tralasciare gli **extreme user** (utenti che possiamo ignorare, perché hanno need **troppo specifici**)
+
+### La profilazione e i suoi compiti
+
+Attività che consiste nel tracciare **una specie di identikit del cliente, "segmentato" in base ad alcune caratteristiche** come quelle demografiche (come sesso, età, stato civile, professione, reddito, .. ) o quelle socio-psicologiche.
+
+La profilazione aiuta ad elaborare un modello di business più forte in quanto:
+
+* **aiuta a progettare migliori proposte di valore**, modi più efficaci di raggiungere i clienti e relazioni più adeguate con i clienti stessi.
+* **permette di intuire** meglio ciò per cui un cliente **è disposto a pagare**
+
+### Ideazione
+
+L’**ideazione** è il processo creativo che **porta alla generazione di molte idee**.
+
+Esistono due fasi:
+
+* **brainstorming**: fase in cui il team genera tantissime idee
+  * tipicamente si annotano sul canvas scrivendo le idee o (schematizzandole con disegnini) sui post-it
+* **selezione**: dalla fase precedente si tirano fuori le **idee migliori**, ovviamente **tenendo conto di fattori** come costi di implementazione, resistenza dei clienti e redditività potenziale
+
+I concetti chiave sono:
+
+* **non copiare**
+* **non guardare indietro**: 'copiare' non vuol dire 'innovare', vuol dire 'copiare'
+* **essere originali** e andare incontro a nuovi need
+  * tipicamente si usano le domande **what-if** (basta ricordarsi **Ikea: prima nessuno montava i propri mobili a casa**, loro invece l'hanno fatto per primi per risparmiare sui costi, ma hanno puntato su questo)
+* **avere un buon team**: di solito hanno età, background e competenze diverse, in modo tale che si possano avere quanti più punti di vista possibili
+
+Esistono quattro tipologie di innovazioni:
+
+* guidate dalle **risorse** (AWS)
+* guidate dall'**offerta**
+* guidate dal **cliente**
+* guidate dagli **aspetti finanziari**
+
+### Prototipazione
+
+Il **prototipo**, esattamente come suggerisce la parola stessa, **non è il prodotto finale**. Può essere soggetto a cambiamenti, ed anzi, è importantissimo che ci siano le revisioni, poiché é improbabile progettare qualcosa priva di difetti sin da subito.
+
+Nel mondo del business, si presenta come un **foglio di calcolo** che simula il funzionamento finanziario di un nuovo business o come un vero e proprio **business plan**.
+
+### Storytelling
+
+Una persona tipicamente è più incuriosita da una storia che da uno schema.
+
+Nasce così lo **storytelling**, ossia l'arte del 'raccontare storie'.
+
+Nel business lo si fa **raccontando** (tipicamente ai manager, ma non solo) il proprio business plan, **spiegando efficacemente con una storia** ciò che si ha in mente. Chi ascolta si immedesima di più nelle situazioni se ascolta una storia ben raccontata, rispetto a un semplice schema.
+
+Serve a:
+
+* **presentare la novità** ai vari livelli del management
+* **raccontare agli investitori** come anche loro faranno i soldi
+* **convincere i dipendenti** attirando la loro attenzione e curiosità
+
+### Scenari
+
+Aiutano gli innovatori a riflettere sul modello più appropriato per ciascuna delle ambientazioni future (**Scenario Planning**), rendendo visibile ciò che è "astratto".
+
+Danno forma al processo di sviluppo del modello di business, **illustrando** in particolare **il contesto** nel quale si progetta.
+
+Sono utilizzati **due** tipi di scenario:
+
+1. **configurazione dei clienti**: descrivono come vengono usati i prodotti e i servizi, quali tipologie di clienti li usano, quali sono i loro obiettivi, desideri, preoccupazioni....
+2. **ambienti futuri**: in cui il modello di business si troverà a competere
+
+Servono per **immaginare** possibili futuri, ma non possono predire il futuro.
 
