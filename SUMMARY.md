@@ -1,10 +1,10 @@
 # Table of contents
 
-* [OGA](README.md)
+* [Welcome](README.md)
 
-## Incompleti
+## Work in progress
 
-* [Computer Graphics](incompleti/computer-graphics.md)
+* [OGA](work-in-progress/oga.md)
 
 ## Completi
 
@@ -21,3 +21,7 @@
   * [Testing](completi/ingegneria-del-software/testing/README.md)
     * [I diversi tipi di test](completi/ingegneria-del-software/testing/i-diversi-tipi-di-test.md)
   * [UML](completi/ingegneria-del-software/uml.md)
+
+## Incompleti
+
+* [Computer Graphics](incompleti/computer-graphics.md)
