@@ -372,6 +372,59 @@ Il **modello di business** consente di **descrivere** in modo semplice un busine
 
 È composto da **elementi che mostrano la logica** con cui un'azienda intende **creare valore**.
 
+### Ambiente
+
+I **modelli di business** sono progettati e realizzati in ambienti specifici ("**spazi di progettazione**" o "**contesto**"), che **se capiti a pieno** possono portare alla creazione di **modelli di business più solidi e competitivi**.
+
+L’ambiente **dovrebbe influenzare** le scelte progettuali e aiutare a prendere delle decisioni consapevoli.
+
+Può essere utile immaginare l’ambiente esterno come il **contesto** in cui creare o adattare il proprio modello di business, **tenendo presenti diversi fattori guida della progettazione** (es. nuove tecnologie, nuove esigenze dei clienti) **e vincoli progettuali** (es. vincoli normativi e/o burocratici)
+
+### Mapping ambientale
+
+È utile mappare le principali quattro aree dell’ambiente poiché conoscere l'ambiente riflettendo sulle tendenze future permette di considerare meglio le direzioni in cui il modello potrebbe evolversi.&#x20;
+
+1. **Forze del mercato:** bisogni e richieste dei clienti, problemi del mercato, segmenti di mercato, costi di transizione ed attrattività dei ricavi
+2. **Forze del settore:** fornitori, concorrenti consolidati, stakeholders, prodotti e servizi sostitutivi
+3. **Forze macroeconomiche:** condizioni del mercato globale, infrastruttura economica e finanziaria, mercato dei capitali del lavoro e delle materie prime
+4. **Tendenze chiave:** tendenze tecnologiche, economiche, sociali, culturali e normative
+
+Siccome **non c'è certezza nel futuro** e ci potrebbero essere una serie di imprevisti, è utile **fare una serie di ipotesi** riguardanti il modo in cui il mercato, il settore, le tendenze macroeconomiche, si evolveranno, permettendo di **creare l'ambiente** dove sviluppare delle potenziali opzioni per i modelli di business o i prototipi per il futuro.
+
+### Come valutare i modelli di business
+
+Serve a conoscere lo stato di salute della propria posizione sul mercato e agire di conseguenza.
+
+Può essere uno spunto per apportare **modifiche incrementali** (ancora Agile) o per **innovare** il modello.
+
+![Non fare mai la valutazione porta al fallimento](<../.gitbook/assets/image (5).png>)
+
+Esistono **due tipi** di valutazione**:**
+
+* Valutazione del **quadro generale:** analizza il modello nel complesso
+* **Analisi SWOT** dettagliata di ciascun elemento di base: analisi dei punti di forza e debolezza, opportunità e rischi svolta per ciascuno dei 9 elementi che caratterizzano un modello di business
+
+### SWOT
+
+![da non confondere con la swat](<../.gitbook/assets/image (7).png>)
+
+**Strumento** che fornisce **quattro prospettive** da cui analizzare il business.
+
+Viene combinato con il canvas.
+
+Le quattro prospettive sono:
+
+* punti di forza
+* punti di debolezza
+* opportunità
+* rischi
+
+Le prime due valutano l'organizzazione internamente, **fornendo un'istantanea della situazione attuale;** le ultime due la analizzano nel contesto in cui opera e **suggeriscono traiettorie future**.
+
+L’analisi SWOT potrebbe però condurre a discussioni troppo vaghe, perché è così **aperto** da non stabilire vincoli sugli aspetti da analizzare, **finendo così per risultare inutile**.
+
+
+
 ## Gli elementi di un modello di business
 
 * **segmenti di clientela**: si rivolge a uno o più segmenti
@@ -574,7 +627,11 @@ C'è una **continua ricerca** del miglior modo possibile per **trovare la novit�
 
 ![](<../.gitbook/assets/image (1).png>)
 
-Se non conosci o non hai mai fatto IUM, le fasi vengono comunque brevemente spiegate. È comunque opportuno rileggerle quindi si suggerisce di **non saltare questa sezione.**
+Se non conosci o non hai mai fatto Interazione Uomo Macchina (IUM), le fasi vengono comunque spiegate. È comunque opportuno rileggerle quindi si suggerisce di **non saltare questa sezione,** ma fa comodo ricordarsi che sono simili a quelle di IUM.&#x20;
+
+Agile è una metodologia di lavoro; alcuni dei suoi punti chiave sono: lo sviluppo iterativo e incrementale delle funzionalità, lavorare in gruppi di lavoro diversificati in modo da avere tante persone con tante competenze su ambiti diversi e la pianificazione del progetto che si adatta a seconda della situazione.
+
+UCD sta per user-centered-design, ed è ciò che è stato spiegato nella [#teoria-cliento-centrista](oga.md#teoria-cliento-centrista "mention").
 
 Fasi:
 
@@ -620,7 +677,7 @@ I concetti chiave sono:
 
 Esistono quattro tipologie di innovazioni:
 
-* guidate dalle **risorse** (AWS)
+* guidate dalle **risorse**
 * guidate dall'**offerta**
 * guidate dal **cliente**
 * guidate dagli **aspetti finanziari**
@@ -658,3 +715,66 @@ Sono utilizzati **due** tipi di scenario:
 
 Servono per **immaginare** possibili futuri, ma non possono predire il futuro.
 
+## Introduzione al business planning
+
+![mappa: pianificazione, bussola: business plan](<../.gitbook/assets/image (4).png>)
+
+### Pianificazione vs. business plan
+
+La **pianificazione è come una mappa intelligente** che ci dice, **dove si è e dove si sta andando**, se stiamo andando nella direzione giusta, aiuta ad aggirare gli ostacoli, supporta un utilizzo efficiente ed efficace delle risorse e aiuta a ridurre le conseguenze di eventi imprevisti, **abbassando il livello del rischio imprenditoriale**.
+
+Il **business plan è come una bussola** che può darci degli elementi per prendere delle decisioni razionali manageriali alle sfide di mercato. Essa **è la chiave per accedere ai canali di finanziamento** ma se, dopo aver ottenuto i fondi (finanziamenti), la visione, le strategie e i piani operativi vengono disattesi, l’acquisizione delle risorse finanziarie si traduce in un risultato inutile e i finanziamenti, si trasformano in obbligazioni contrattuali che soffocano la liquidità dell’azienda.
+
+### Excellent business plan
+
+Borello ha scritto questo libro, disponibile all'indirizzo [https://excellentbusinessplan.com](https://excellentbusinessplan.com) che può aiutare in caso si voglia migliorare la pianificazione imprenditoriale.
+
+### Vision imprenditoriale e pianificazione
+
+L’imprenditore possiede la "**visione imprenditoriale**" (vision), ossia un **approccio razionale**, che studia le variabili interne ed esterne all’organizzazione aziendale e che consente di seguire le evoluzioni ambientali e di mercato.&#x20;
+
+La vision guida l’imprenditore verso un **orizzonte strategico e non operativo**.
+
+## Business planning
+
+Il **Business Planning** è un **approccio analitico alla pianificazione imprenditoriale** che traduce la vision in un piano di azione vero e proprio, chiamato "**piano operativo**" che consente di pervenire stime di costo e di ricavo più dettagliate, avendo cura di analizzare il contesto, i concorrenti, la clientela target.
+
+### Fasi
+
+1. Fattibilità economica: piano di fattibilità economica
+2. Fattibilità economico-finanziaria: piano economico-finanziario (**business plan**)
+3. Fase operativa: avvio dell'azienda: piano operativo
+
+### Approcci
+
+Si hanno tre approcci principali:
+
+1. **Tradizionale:** basato su analisi di mercato
+2. **Lean:**  basato sulle azioni, esperimenti e feedback dal mercato
+3. **CLIP:** un misto basato su entrambi
+
+### CLIP
+
+Passi iterativi: Originalità, Fattibilità, Commerciabilità, Sostenibilità
+
+Vicino al **lean** poiché ci si concentra nella **creazione di un prototipo**.
+
+Vicino al **tradizionale** poiché vengono studiati tutti gli elementi del modello di business.
+
+Quando il test ha successo, l'imprenditore torna al prototipo e lo **elabora** in una versione più sofisticata, tornando alla fase di Pianificazione (Scalabilità).
+
+* ancora una volta, è sempre Agile, cambia l'ambito ma il concetto è sempre lo stesso
+
+## Business Plan
+
+Il **business plan** è un documento prodotto dal business planning ed è lo strumento alla base di un processo di pianificazione sistematico ed efficace (business planning) che risponde alle seguenti domande:
+
+* **Dove siamo**: fotografia dello stato attuale dell'azienda, inclusa la storia, l'evoluzione e le caratteristiche di ciò che offre. È l'**attuale posizione di mercato.**
+* **Dove vorremmo essere**: dimensione strategica: la direzione che prenderanno i fondi di investimento del direttore e/o del manager&#x20;
+* **Come ci si arriva**: è la fase attuativa, vengono messi in pratica i principi stabiliti con la domanda "dove vorrei essere" la decisione è importante quanto la comunicazione a tutti i membri dell’organizzazione delle azioni che si intende intraprendere per il raggiungimento dei target
+
+
+
+****
+
+&#x20;
