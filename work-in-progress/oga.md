@@ -105,7 +105,7 @@ Le motivazioni alla base dell'istituzione di un'azienda possono essere diverse, 
 
 ### Da cosa è costituita un'azienda
 
-![il lavoro, il capitale e l'organizzazione](<../.gitbook/assets/image (1).png>)
+![il lavoro, il capitale e l'organizzazione](<../.gitbook/assets/image (1) (1).png>)
 
 Da tre cose:
 
@@ -363,3 +363,202 @@ Il **manager** come l'imprenditore, organizza coordina, dirige, innova e trova s
 ### Differenza tra imprenditore e manager
 
 La differenza tra imprenditore e manger sta nel fatto che **l'imprenditore rischia il suo denaro** ed è colui che ha avuto l'idea (è un visionario), mentre il **manager rischia "solo" lo stipendio,** comunque soldi non suoi.
+
+## Modello di business
+
+Il **modello di business** consente di **descrivere** in modo semplice un business e trattarlo per creare nuove alternative strategiche.
+
+#### Da come è composto
+
+È composto da **elementi che mostrano la logica** con cui un'azienda intende **creare valore**.
+
+### Gli elementi di un modello di business
+
+* **segmenti di clientela**: si rivolge a uno o più segmenti
+* **partner chiave**: alcune risorse si ricavano da fuori
+* **attività chiave**: tutte le attività che offre un'azienda
+* **risorse chiave**: beni necessari per offrire la proposta di valore descritta nei altri punti
+* **proposte di valore**: cosa offre l'azienda rispetto alle altre
+* **relazioni con i clienti**: stabilite e mantenute secondo ciascun segmento di clientela
+* **canali**: il mezzo con cui si raggiungono i clienti
+* **struttura dei costi**: perché il mio modello è migliore per i costo
+* **flussi di ricavi**: ricavati dalla proposta di valore
+
+### Segmenti di clientela
+
+Gruppi di persone con caratteristiche ed **esigenze simili**.
+
+I gruppi sono rappresentati da segmenti distinti se:
+
+* i loro bisogni richiedono un'**offerta distinta**
+* vengono raggiunti con **canali diversi**
+* hanno **redditività diverse**
+
+#### Tipologia di segmenti di massa
+
+* mercato **di massa**: **unico**, grande gruppo di clienti con bisogni simili (es. pasta, la mangiano tutti)
+* mercato **di nicchia**: molto **specializzato** (es. pasta per celiaci)
+* mercato **segmentato**: segmenti con esigenze e problemi simili ma al contempo molto diversi (es. uno è ricco e uno è meno ricco, c'è la Ferrari e c'è la Fiat, ma entrambi i segmenti hanno bisogno di spostarsi tra due punti)
+* mercato **diversificato**: due segmenti con problemi ben diversi (Amazon Shopping e Amazon AWS)
+* piattaforme **multi-sided**: es. Mastercard ha bisogno sia dei negozianti che dei clienti con una carta di credito, quindi i segmenti sono **interdipendenti tra loro**
+
+### Proposta di valore
+
+Una proposta di valore **crea valore** per uno specifico segmento di clientela attraverso un insieme di elementi.
+
+È un insieme di **benefici che l'azienda offre** ai clienti; essa soddisfa un bisogno della clientela.
+
+Questo è il motivo per il quale i clienti passano da un'azienda all'altra.
+
+Le proposte possono essere:
+
+* **innovative** --> nuove opportunità
+* **simili** già a quelle esistenti --> però con caratteristiche aggiuntive
+
+Caratteristiche:
+
+* prezzo, design, novità
+* status, risolve problemi, convenienza
+* riduzione dei costi e dei rischi, performance, personalizzazione
+
+### Canali
+
+Modo in cui un'azienda **comunica con i propri segmenti di clientela** e li **raggiunge** per portare loro la proposta di valore.
+
+Costituiscono l'**interfaccia dell'azienda** nei confronti dei suoi clienti.
+
+#### A che servono
+
+Svolgono le seguenti funzioni:
+
+* far crescere la **consapevolezza** riguardo i prodotti / servizi
+* aiutare i clienti a **valutare la proposta di valore** e ad **acquistare** specifici prodotti (in che modo i clienti possono acquistare da noi?)
+* **distribuire** la proposta di valore ai clienti
+* **supporto post-vendita**
+
+#### Tipologie dei canali
+
+I canali sono possono essere:
+
+* **propri**
+  * diretti e indiretti (margini più alti ma costi elevati)
+* **dei partner**
+  * margini minori ma permettono di guadagnare in visibilità
+
+### Relazione con i clienti
+
+Si occupano di **assistenza personale dedicata**, di self-service, di **community** e di **co-creazione** (es. youtube)
+
+#### Catena dei clienti
+
+Acquisizione --> fidelizzazione --> incremento vendite
+
+### Flussi di ricavi
+
+Rappresentano il **denaro che un'impresa ricava** da ciascun **segmento di clientela**
+
+La domanda che l'impresa dovrebbe porsi è: "per quale valore ciascun segmento di clientela è veramente disposto a pagare?"
+
+Esistono due tipi: pagamenti **in un'unica soluzione** oppure **continui**.
+
+I prezzi possono essere **fissi** che **dipendono** dal **segmento** di clientela e dalle **caratteristiche del prodotto** oppure **dinamici** come il **mercato in tempo reale** (aste o trattative).
+
+**Modi per generare flussi**: Pubblicità, leasing/noleggio, licenze, canoni d'uso, vendite di bene, quote d'iscrizione, commissioni
+
+### Risorse chiave
+
+Ciascun modello di business, per funzionare, richiede risorse chiave.
+
+Queste permettono di creare la proposta di valore, raggiungere i mercati, mantenere le relazioni e ottenere dei ricavi.
+
+Possono essere:
+
+* di proprietà
+* noleggiate
+* acquisto da partner strategici
+
+#### Tipologie
+
+Le risorse **fisiche** sono quelle come gli edifici, gli impianti di distribuzione o i punti vendita.
+
+Le **intellettuali** sono i brevetti o il copyright.
+
+Le **umane** sono i designer.
+
+Le **finanziarie** sono i contanti e linee di credito.
+
+### Attività chiave
+
+Definsice le azioni più importanti che un'azienda deve compiere affinché il suo modello funzioni ed esattamente come le risorse chiave permettono di creare la proposta di valore, raggiungere i mercati, mantenere le relazioni e ottenere dei ricavi.
+
+Un esempio sono il problem solving (analisti / studi di consulenza), piattaforma / rete (ebay)
+
+### Parnership chiave
+
+Le aziende danno vita a **partnership** per **ottimizzare** i propri modelli di business, **ridurre i rischi** e **acquisire risorse particolari**.
+
+Quelle più comuni sono "**acquirenti-fornitori**" (es. pizzaiolo), però ne esistono di altre tipologie, come le **alleanze** strategiche tra **non-correnti** (fortnite-marvel), **alleanze tra concorrenti** (Samsung e Google danno vita a WearOS) oppure **join venture** per sviluppare nuovi business, dove si punta a condividere la conoscenza.
+
+### Struttura dei costi
+
+In alcuni modelli di business la bassa struttura dei costi è più importante (rispetto ad altri modelli).
+
+I modelli di business possono essere divisi in base ai **costi** e in base al **valore**.
+
+I costi **fissi** si differenziano da quelli variabili poiché i primi **rimangono fissi** indipendentemente dal prodotto.
+
+L'economia **di scala** si differenzia da quella **di gamma** poiché **nella prima** c'è una riduzione dei costi quando la **produzione si espande**, mentre **nella seconda** quando il **raggio d'azione si espande**.
+
+## Canvas
+
+Il canvas è uno strumento visivo che permette di rappresentare i buiness model, e che favorisce la comprensione, l'analisi, la discussione e la creatività (avendo infatti un approccio grafico).
+
+### A cosa serve
+
+Ha due funzioni principali:
+
+* comprendere **come funziona** il business, offrendo una panoramica visuale ed immediata su come funziona l'impresa
+* **ideare nuovi modelli** di business, ragiona su "solo" nove blocchi per esplorare nuove opportunità
+
+### Come si fa
+
+Per usare al meglio il canvas, lo si deve **stampare** su una bella superficie grossa, in modo tale che il gruppo possa discutere delle varie idee attraverso i post-it.
+
+Bisogna **scrivere su ogni post-it un'idea** che poi verrà attaccata nel riquadro giusto.
+
+Di solito **si parte dai segmenti di clientela.**
+
+![domande utili per redigere un canvas ](../.gitbook/assets/image.png)
+
+## Jobs (to be done) Theory
+
+I clienti non si limitano ad acquistare beni, ma chiedono loro di **svolgere un compito molto specifico** a seconda della situazione, ossia è come se "assumessero" i prodotti e li "licenziassero" quando non ne hanno più bisogno.
+
+### Teoria "cliento-centrista"
+
+![questo è Copernico; la teoria sua afferma che la terra sta ferma e il mondo gli gira intorno, tuttavia in questo caso il meme è filosofico: nonostante ciò che succede oggi, il meme ha ragione o no?](<../.gitbook/assets/image (2).png>)
+
+Il cliente è **al centro di tutto**. Fino a qualche anno fa, l'imprenditore aveva la sua attenzione a vendere i prodotti, ora il focus lo ha sul cliente.
+
+Il cliente **deve essere coccolato**; l'imprenditore deve **conoscere e sapere i gusti** dell'utente in modo da potergli fornire un **prodotto su misura**. Se non riesce a soddisfare i need dell'utente, dovrà fare **ricerche** e cambiare la **proposta di valore** del prodotto.
+
+### La verità sui prodotti
+
+Qualsiasi prodotto **non ha nessun valore intrinseco**, ma lo ha solo nella misura in cui **risolve un problema** del cliente.
+
+Perciò dobbiamo pensare ai clienti come **persone in cerca di un job specifico** anziché un prodotto.
+
+### Tipologie di job
+
+Job **funzionali**: legati a **compiti da svolgere**
+
+* Aspirapolvere
+
+Job **sociali**: come il cliente **vuole apparire** agli occhi della società
+
+* Instagram
+
+Job **emozionali**: come si **vuole sentire** il cliente
+
+* Ikea o Amazon: ci tengono a far sentire il cliente come se fosse a casa e danno una sensazione di sicurezza
+
