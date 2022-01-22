@@ -1,7 +1,7 @@
 ---
 description: >-
-  Materiale originale: prof.ssa Francesca Castaldo.Grazie a: Hazem, per gli
-  schemi suoi personali pdf + riassunti; Damiano, meme e le rielaborazioni
+  Materiale originale: prof.ssa Francesca Castaldo. Grazie a: Hazem, per gli
+  schemi suoi personali pdf + riassunti; Damiano, meme e rielaborazioni;
 ---
 
 # OGA
@@ -798,9 +798,11 @@ Può rivolgersi alle **startup** poiché permette di avere una stima della proba
 
 Può anche rivolgersi ad una **attività già avviata** per tradurre la visione imprenditoriale a lungo termine in **guida alla gestione corrente** del business.
 
-### Funzione esterna
+### Funzione interna vs. esterna
 
-È la capacità che il business plan ha di essere uno strumento per **persuadere che l'idea è buona** (es. verso gli investitori prima che investano nel prodotto)
+La funzione **interna** è la funzione che ha all'interno dell'azienda, ossia di essere una **guida** (una mappa).
+
+La funzione **esterna** è la capacità che il business plan ha di essere uno strumento per **persuadere che l'idea è buona** (es. verso gli investitori prima che investano nel prodotto)
 
 ### Documenti intermedi
 
@@ -809,7 +811,57 @@ Ci sono due principali documenti intermedi, che sono sintesi di quello che è st
 * **executive summary:** documento di due/tre pagine. È il **biglietto da visita del business** poiché viene presentato a chi dovrà promuovere il business. **Richiede particolari doti di scrittura,** poiché molto complesso: vengono introdotti tantissimi temi come le caratteristiche del progetto, i suoi ambiti, la strategia perseguita, lo stadio di sviluppo e i principali risultati economico-finanziari attesi.
 * **investment memorandum** un documento di 15-20 pagine, che ha gli stessi temi dell'executive summary, trattati però in maniera molto più dettagliata. I dati economico-finanziari **non sono presentati in modo analitico** ma sono limitati ad alcuni indicatori di **redditività e sostenibilità finanziaria**, in alcuni casi affiancati da un’analisi di sensitività delle ipotesi di calcolo effettuate.
 
-##
+## Struttura organizzativa
+
+È il modo di funzionare di un'organizzazione (**come funziona un'organizzazione**), che rappresenta un sistema di processi e attività di organizzazione.
+
+Strutturare serve a **ottimizzare i processi** e le attività in base alla **tipologia** di prodotto/mercato e all’ambiente esterno.
+
+La tipologia di struttura è generalmente identificata dalla prevalenza del **coordinamento verticale o di quello orizzontale**.
+
+### Comunicazione orizzontale vs. verticale
+
+La comunicazione orizzontale significa **trasmettere le informazioni** tra persone, divisioni, dipartimenti o unità **all’interno dello stesso livello** dell'organizzazione.
+
+La verticale significa **trasmettere le informazioni tra diversi livelli** della struttura organizzativa.
+
+## Tipologie di strutture
+
+Esistono tre tipologie di strutture:
+
+* funzionale
+* divisionale
+* matrice
+
+### **Funzionale**
+
+Prevale il **coordinamento verticale.**
+
+C'è una **forte struttura gerarchica** con **regole rigorose**, è stabile ed è utilizzata nelle **imprese medio-piccole**.
+
+Permette all’organizzazione di **perseguire obiettivi funzionali,** sviluppa conoscenze e capacità approfondite ma la scarsa articolazione può provocare **tempi di risposta lenti** e **accumuli di decisioni al vertice** della gerarchia.
+
+Può anche condurre a una **visione ristretta** degli obiettivi e una **iperspecializzazione** delle risorse umane.
+
+### **Divisionale**
+
+Che a sua volta si divide in:
+
+* per **prodotto:** raggrupate in base ai **singoli prodotti**, servizi, gruppi di prodotti (es. la San Benedetto produce l'acqua Guizza, ma anche la Schweppes, ed entrambi sono tutti e due prodotti con due divisioni diverse)
+* per **processo:** raggruppate in base ai singoli processi o progetti (es. **un'azienda di telefoni** ha bisogno di diverse divisioni: una per estrarre i semiconduttori, una per lavorarli ecc)
+* per **aree geografiche** (es. la Nintendo ha una divisione geografica in America, una in Europa e una in Giappone)
+
+Hanno un **alto coordinamento verticale e orizzontale** e sono modulabili a seconda delle esigenze (c'è quindi una forte **dinamicità**).
+
+Ogni unità **lavora in autonomia**, (avendo le proprie differenze di prodotto, geografiche e di clientela), **evitando di centralizzare** a un vertice le decisioni.
+
+**Non riesce** però a **definire uno standard** tra le linee di prodotto, e siccome ogni unità fa grossomodo la stessa cosa, le funzioni sono ripetute, **eliminando la scalabilità**&#x20;
+
+### Matrice
+
+Si ha un alto **coordinamento orizzontale** e viene usato nelle **medie aziende con tanti prodotti**. C'è la condivisione delle risorse ma si hanno più difficoltà gestionali perché **c'è più di un autorità (duplice)**, risultando frustrante per i dipendenti, richiede **grandi sforzi** per mantenere un bilanciamento del potere e comporta **frequenti riunioni e sessioni** per risolvere conflitti&#x20;
+
+
 
 
 
