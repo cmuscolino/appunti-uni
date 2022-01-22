@@ -8,7 +8,7 @@ Alcuni di questi appunti sono stati presi e importati da altri documenti condivi
 
 Spero vi possano essere utili!
 
-In caso di inesattezze, modifiche, o semplicemente volete ringraziarmi, [potete contattarmi su Github](https://github.com/dag7dev).
+In caso di inesattezze, modifiche, o semplicemente volete ringraziarmi, [potete contattarmi su Github](https://github.com/dag7dev) oppure [inviarmi una email](mailto:dag7@pm.me).
 
 ### Alcuni link utili
 
