@@ -623,7 +623,7 @@ L’attività del progettista consiste nel **generare nuove possibilità** e **c
 
 C'è una **continua ricerca** del miglior modo possibile per **trovare la novità**, scoprire ciò che ancora non è stato esplorato e raggiungere ciò che funziona (una specie di innovazione ma "gestionale").
 
-## Agile UCD
+## Progettazione (simil-Agile UCD)
 
 ![](<../.gitbook/assets/image (1).png>)
 
@@ -672,7 +672,7 @@ I concetti chiave sono:
 * **non copiare**
 * **non guardare indietro**: 'copiare' non vuol dire 'innovare', vuol dire 'copiare'
 * **essere originali** e andare incontro a nuovi need
-  * tipicamente si usano le domande **what-if** (basta ricordarsi **Ikea: prima nessuno montava i propri mobili a casa**, loro invece l'hanno fatto per primi per risparmiare sui costi, ma hanno puntato su questo)
+  * tipicamente si usano le domande **what-if** (basta ricordarsi **Ikea: prima nessuno montava i propri mobili a casa**, loro invece l'hanno fatto per primi per risparmiare sui costi, ma hanno puntato su questo e si sono chiesti "cosa succederebbe se per risparmiare sui costi non montassimo i mobili ma la gente se li montasse in autonomia?")
 * **avere un buon team**: di solito hanno età, background e competenze diverse, in modo tale che si possano avere quanti più punti di vista possibili
 
 Esistono quattro tipologie di innovazioni:
@@ -723,7 +723,9 @@ Servono per **immaginare** possibili futuri, ma non possono predire il futuro.
 
 La **pianificazione è come una mappa intelligente** che ci dice, **dove si è e dove si sta andando**, se stiamo andando nella direzione giusta, aiuta ad aggirare gli ostacoli, supporta un utilizzo efficiente ed efficace delle risorse e aiuta a ridurre le conseguenze di eventi imprevisti, **abbassando il livello del rischio imprenditoriale**.
 
-Il **business plan è come una bussola** che può darci degli elementi per prendere delle decisioni razionali manageriali alle sfide di mercato. Essa **è la chiave per accedere ai canali di finanziamento** ma se, dopo aver ottenuto i fondi (finanziamenti), la visione, le strategie e i piani operativi vengono disattesi, l’acquisizione delle risorse finanziarie si traduce in un risultato inutile e i finanziamenti, si trasformano in obbligazioni contrattuali che soffocano la liquidità dell’azienda.
+Il **business plan è come una bussola** che può darci degli elementi per prendere delle decisioni razionali manageriali alle sfide di mercato. Essa **è la chiave per accedere ai canali di finanziamento.**
+
+Se, dopo aver ottenuto i fondi (finanziamenti), la visione, le strategie e i piani operativi vengono disattesi, l’acquisizione delle risorse finanziarie si traduce in un risultato inutile e i finanziamenti, si trasformano in obbligazioni contrattuali che soffocano la liquidità dell’azienda.
 
 ### Excellent business plan
 
@@ -737,25 +739,25 @@ La vision guida l’imprenditore verso un **orizzonte strategico e non operativo
 
 ## Business planning
 
-Il **Business Planning** è un **approccio analitico alla pianificazione imprenditoriale** che traduce la vision in un piano di azione vero e proprio, chiamato "**piano operativo**" che consente di pervenire stime di costo e di ricavo più dettagliate, avendo cura di analizzare il contesto, i concorrenti, la clientela target.
+Il **Business Planning** è un **approccio analitico alla pianificazione imprenditoriale** che traduce la vision in un piano di azione vero e proprio, chiamato "**piano operativo**" che consente di fare stime di costo e di ricavo più dettagliate, avendo cura di analizzare il contesto, i concorrenti e la clientela target.
 
 ### Fasi
 
-1. Fattibilità economica: piano di fattibilità economica
-2. Fattibilità economico-finanziaria: piano economico-finanziario (**business plan**)
-3. Fase operativa: avvio dell'azienda: piano operativo
+1. Fattibilità **economica**: piano di fattibilità economica
+2. Fattibilità **economico-finanziaria**: piano economico-finanziario (**business plan**)
+3. Fase **operativa**: avvio dell'azienda: piano operativo
 
 ### Approcci
 
 Si hanno tre approcci principali:
 
 1. **Tradizionale:** basato su analisi di mercato
-2. **Lean:**  basato sulle azioni, esperimenti e feedback dal mercato
+2. **Lean:**  basato sulle azioni, sugli esperimenti e sui feedback dal mercato
 3. **CLIP:** un misto basato su entrambi
 
 ### CLIP
 
-Passi iterativi: Originalità, Fattibilità, Commerciabilità, Sostenibilità
+Passi **iterativi**: Originalità, Fattibilità, Commerciabilità, Sostenibilità
 
 Vicino al **lean** poiché ci si concentra nella **creazione di un prototipo**.
 
@@ -767,11 +769,47 @@ Quando il test ha successo, l'imprenditore torna al prototipo e lo **elabora** i
 
 ## Business Plan
 
-Il **business plan** è un documento prodotto dal business planning ed è lo strumento alla base di un processo di pianificazione sistematico ed efficace (business planning) che risponde alle seguenti domande:
+Il **business plan** è un documento prodotto dal business planning ed è lo strumento alla base di un processo di pianificazione sistematico ed efficace (business planning).
+
+### Le domande
+
+Risponde a tre domande:
 
 * **Dove siamo**: fotografia dello stato attuale dell'azienda, inclusa la storia, l'evoluzione e le caratteristiche di ciò che offre. È l'**attuale posizione di mercato.**
 * **Dove vorremmo essere**: dimensione strategica: la direzione che prenderanno i fondi di investimento del direttore e/o del manager&#x20;
 * **Come ci si arriva**: è la fase attuativa, vengono messi in pratica i principi stabiliti con la domanda "dove vorrei essere" la decisione è importante quanto la comunicazione a tutti i membri dell’organizzazione delle azioni che si intende intraprendere per il raggiungimento dei target
+
+Per rispondere correttamente a queste domande occorre fare un'analisi **sia interna** (idee e obiettivi dell'imprenditore) **che esterna**  (ambiente / contesto).
+
+### Esiste un piano standard?
+
+No. Tutto dipende dai fattori interni ed esterni, da come è composto e strutturato il business, dagli imprenditori, dalla sua esperienza...
+
+### Come è composto
+
+Ha due sezioni:
+
+* parte **descrittiva**: cioè, analisi e studi necessari per comprendere il mercato, la concorrenza, il prodotto offerto e il piano strategico-operativo
+* parte **economico-finanziaria**: che copre molte aree di analisi, investimento e bilancio. Permette di interpretare i dati raccolti nella prima parte e usarli come guida per la valutazione del progetto
+
+### A chi si rivolge
+
+Può rivolgersi alle **startup** poiché permette di avere una stima della probabilità di successo e del rischio imprenditoriale.
+
+Può anche rivolgersi ad una **attività già avviata** per tradurre la visione imprenditoriale a lungo termine in **guida alla gestione corrente** del business.
+
+### Funzione esterna
+
+È la capacità che il business plan ha di essere uno strumento per **persuadere che l'idea è buona** (es. verso gli investitori prima che investano nel prodotto)
+
+### Documenti intermedi
+
+Ci sono due principali documenti intermedi, che sono sintesi di quello che è stato deciso o fatto.
+
+* **executive summary:** documento di due/tre pagine. È il **biglietto da visita del business** poiché viene presentato a chi dovrà promuovere il business. **Richiede particolari doti di scrittura,** poiché molto complesso: vengono introdotti tantissimi temi come le caratteristiche del progetto, i suoi ambiti, la strategia perseguita, lo stadio di sviluppo e i principali risultati economico-finanziari attesi.
+* **investment memorandum** un documento di 15-20 pagine, che ha gli stessi temi dell'executive summary, trattati però in maniera molto più dettagliata. I dati economico-finanziari **non sono presentati in modo analitico** ma sono limitati ad alcuni indicatori di **redditività e sostenibilità finanziaria**, in alcuni casi affiancati da un’analisi di sensitività delle ipotesi di calcolo effettuate.
+
+##
 
 
 
