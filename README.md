@@ -8,9 +8,15 @@ Alcuni di questi appunti sono stati presi e importati da altri documenti condivi
 
 Spero vi possano essere utili!
 
-In caso di inesattezze, modifiche, o semplicemente volete ringraziarmi, [potete contattarmi su Github](https://github.com/dag7dev) oppure [inviarmi una email](mailto:dag7@pm.me).
+In caso di inesattezze, modifiche, o semplicemente volete ringraziarmi, date un'occhiata alla pagina dei Contatti.
 
-### Alcuni link utili
+{% hint style="info" %}
+
+{% endhint %}
+
+&#x20;
+
+### Link utili
 
 * [DBHelper](https://github.com/dag7dev/DBHelper) **risolutore di esercizi di BD1**
 * [so2-easy-deployment](https://github.com/dag7dev/so2-easy-deployment) se stai facendo gli esercizi di **Sistemi Operativi 2**, questo potrebbe fare al caso tuo

@@ -1,10 +1,9 @@
 # Table of contents
 
+## 🔝 Inizia da qui <a href="#start" id="start"></a>
+
 * [Welcome](README.md)
-
-## Work in progress
-
-* [OGA](work-in-progress/oga.md)
+* [Contatti - Email, GitHub...](start/contatti-email-github....md)
 
 ## Completi
 
@@ -21,6 +20,7 @@
   * [Testing](completi/ingegneria-del-software/testing/README.md)
     * [I diversi tipi di test](completi/ingegneria-del-software/testing/i-diversi-tipi-di-test.md)
   * [UML](completi/ingegneria-del-software/uml.md)
+* [OGA](completi/oga.md)
 
 ## Incompleti
 
