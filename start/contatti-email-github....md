@@ -2,7 +2,7 @@
 description: Pagina dedicata ai miei contatti.
 ---
 
-# Contatti - Email, GitHub...
+# ☎️Contatti - Email, GitHub...
 
 ✉️ Puoi [mandarmi una email](mailto:dag7@pr) per ringraziarmi oppure [aprire una issue su Github](https://github.com/dag7dev/appunti-uni/issues) in caso di inesattezze o errori
 

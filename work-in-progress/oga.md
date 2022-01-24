@@ -4,7 +4,7 @@ description: >-
   schemi suoi personali pdf + riassunti; Damiano, meme e rielaborazioni;
 ---
 
-# OGA
+# 🏢OGA
 
 ## Beni e bisogni
 

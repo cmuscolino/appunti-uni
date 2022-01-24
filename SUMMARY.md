@@ -2,13 +2,13 @@
 
 ## 🔝 Inizia da qui <a href="#start" id="start"></a>
 
-* [Welcome](README.md)
-* [Contatti - Email, GitHub...](start/contatti-email-github....md)
+* [👋Welcome!](README.md)
+* [☎️Contatti - Email, GitHub...](start/contatti-email-github....md)
 
 ## Completi
 
-* [IUM](completi/ium.md)
-* [Ingegneria del Software](completi/ingegneria-del-software/README.md)
+* [👤IUM](completi/ium.md)
+* [🔨Ingegneria del Software](completi/ingegneria-del-software/README.md)
   * [Introduzione](completi/ingegneria-del-software/introduzione.md)
   * [Processi di modellizzazione](completi/ingegneria-del-software/processi-di-modellizzazione.md)
   * [V-Model, Plan-driven vs. Incrementale](completi/ingegneria-del-software/v-model-plan-driven-vs.-incrementale.md)
@@ -20,8 +20,8 @@
   * [Testing](completi/ingegneria-del-software/testing/README.md)
     * [I diversi tipi di test](completi/ingegneria-del-software/testing/i-diversi-tipi-di-test.md)
   * [UML](completi/ingegneria-del-software/uml.md)
-* [OGA](completi/oga.md)
+* [🏢OGA](work-in-progress/oga.md)
 
 ## Incompleti
 
-* [Computer Graphics](incompleti/computer-graphics.md)
+* [🌈Computer Graphics](incompleti/computer-graphics.md)

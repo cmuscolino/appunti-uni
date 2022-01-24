@@ -1,6 +1,6 @@
-# Welcome
+# 👋Welcome!
 
-### Ciao!
+### Ciao! 👋
 
 Questa è la pagina Home di tutti i miei appunti universitari.
 
@@ -11,7 +11,7 @@ Spero vi possano essere utili!
 In caso di inesattezze, modifiche, o semplicemente volete ringraziarmi, date un'occhiata alla pagina dei Contatti.
 
 {% hint style="info" %}
-
+Vuoi contattarmi? --> [contatti-email-github....md](start/contatti-email-github....md "mention")&#x20;
 {% endhint %}
 
 &#x20;
