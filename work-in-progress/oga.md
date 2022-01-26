@@ -173,6 +173,17 @@ Raggruppiamo le funzioni in due grandi gruppi:
 * **processi**: attività aziendali (processi di vendita e produzione)
 * **combinazioni di processi**: raggruppamenti di funzioni amministrative
 
+### Rischio
+
+Il rischio aziendale è l’**insieme dei possibili effetti negativi, e potenzialmente positivi**, che si verificano a causa di un **evento inaspettato** di natura economica, finanziaria, patrimoniale o di immagine.
+
+**Rischio della banca**: Le quattro componenti fondamentali che misurano il rischio sono:
+
+* probabilità di adempiezza
+* perdita in caso di insolvenza
+* esposizione al momento di adempiezza
+* durata effettiva
+
 ### Incertezza
 
 L'incertezza è data dalla **non consapevolezza degli effetti** di determinate decisioni ed azioni.
@@ -719,13 +730,42 @@ Servono per **immaginare** possibili futuri, ma non possono predire il futuro.
 
 ![mappa: pianificazione, bussola: business plan](<../.gitbook/assets/image (4).png>)
 
-### Pianificazione vs. business plan
+### Pianificazione e BP
 
 La **pianificazione è come una mappa intelligente** che ci dice, **dove si è e dove si sta andando**, se stiamo andando nella direzione giusta, aiuta ad aggirare gli ostacoli, supporta un utilizzo efficiente ed efficace delle risorse e aiuta a ridurre le conseguenze di eventi imprevisti, **abbassando il livello del rischio imprenditoriale**.
 
 Il **business plan è come una bussola** che può darci degli elementi per prendere delle decisioni razionali manageriali alle sfide di mercato. Essa **è la chiave per accedere ai canali di finanziamento.**
 
 Se, dopo aver ottenuto i fondi (finanziamenti), la visione, le strategie e i piani operativi vengono disattesi, l’acquisizione delle risorse finanziarie si traduce in un risultato inutile e i finanziamenti, si trasformano in obbligazioni contrattuali che soffocano la liquidità dell’azienda.
+
+### Pianificazione vs. Programmazione
+
+**Pianificazione**
+
+È un processo composto da due **componenti fondamentali:**
+
+1. **identificazione degli obiettivi** (medio-lungo termine)
+2. **identificazione dei mezzi utili** per conseguire gli obiettivi
+
+**Caratteristiche**:
+
+* visione strategica di **lungo termine**
+* serve a **valutare le scelte strategiche**
+* si possono fare **analisi di sensitività**
+* utile al **management**
+* 1-**n** anni
+* approccio: bottom-up
+* documento: **business plan**
+
+**Programmazione**
+
+* programmi di **breve termine**&#x20;
+* serve come **motivazione dell'organizzazione**
+* si può misurare **efficacia ed efficienza** della gestione di uno o più componenti elementari
+* 1 esercizio
+* utile ai **responsabili operativi**
+* approccio: top-down
+* documento: **budget**
 
 ### Excellent business plan
 
@@ -739,7 +779,7 @@ La vision guida l’imprenditore verso un **orizzonte strategico e non operativo
 
 ## Business planning
 
-Il **Business Planning** è un **approccio analitico alla pianificazione imprenditoriale** che traduce la vision in un piano di azione vero e proprio, chiamato "**piano operativo**" che consente di fare stime di costo e di ricavo più dettagliate, avendo cura di analizzare il contesto, i concorrenti e la clientela target.
+Il **Business Planning** è un **approccio analitico alla pianificazione** imprenditoriale **** che **traduce la vision in un piano di azione vero e proprio**, chiamato "**piano operativo**" che consente di fare stime di costo e di ricavo più dettagliate, avendo cura di analizzare il contesto, i concorrenti e la clientela target.
 
 ### Fasi
 
@@ -769,7 +809,13 @@ Quando il test ha successo, l'imprenditore torna al prototipo e lo **elabora** i
 
 ## Business Plan
 
-Il **business plan** è un documento prodotto dal business planning ed è lo strumento alla base di un processo di pianificazione sistematico ed efficace (business planning).
+Il **business plan** è un documento prodotto dal business planning ed è lo **strumento** alla base di un processo di pianificazione sistematico ed efficace (business planning).
+
+### Altre funzioni
+
+Nella prima stesura il business plan è una sorta di bussona, utile a **formulare decisioni** di convenienza economica o finanziaria di determinate iniziative, che si possono concludere nella scelta di due o più strategie oppure nell'abbandono completo delle iniziative per mancanza dei presupposi reddito-finanziarli.
+
+È importante per **l'ottimizzazione finanziaria** della copertura degli investimenti pianificati, e può essere usato come strumento di analisi preventiva quando si richiede una qualsiasi forma di sostegno economico (es. finanziamento).&#x20;
 
 ### Le domande
 
