@@ -2,6 +2,7 @@
 description: >-
   Ovvero una pratica guida su come sopravvivere allo scritto del Mei. Autori:
   Damiano e Marzia Bragaglia. Special thanks to: Stefano e Paolo (Mastro Paint).
+  13.01.2020
 ---
 
 # 🧮Architetture

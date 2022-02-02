@@ -2,6 +2,7 @@
 description: >-
   Materiale originale: prof.ssa Francesca Castaldo. Grazie a: Hazem, per gli
   schemi suoi personali pdf + riassunti; Damiano, meme e rielaborazioni;
+  aa.2021-2022
 ---
 
 # 🏢OGA

@@ -7,7 +7,9 @@
 
 ## Completi
 
-* [👤IUM](completi/ium.md)
+* [👤IUM](completi/ium/README.md)
+  * [IUM - Raw](completi/ium/ium-raw.md)
+  * [IUM - Compendio](completi/ium/ium-compendio.md)
 * [🔨Ingegneria del Software](completi/ingegneria-del-software/README.md)
   * [Introduzione](completi/ingegneria-del-software/introduzione.md)
   * [Processi di modellizzazione](completi/ingegneria-del-software/processi-di-modellizzazione.md)

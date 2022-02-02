@@ -1,4 +1,10 @@
-# IUM
+---
+description: >-
+  Appunti presi su carta a mano. Potrebbero contenere una grande quantità di
+  imprecisioni. aa.2021-2022
+---
+
+# IUM - Raw
 
 ## Progettare un orologio
 
