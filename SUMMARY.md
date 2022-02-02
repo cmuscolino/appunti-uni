@@ -28,3 +28,4 @@
 ## Incompleti
 
 * [🌈Computer Graphics](incompleti/computer-graphics.md)
+* [📟 Sistemi Digitali](incompleti/sistemi-digitali.md)
