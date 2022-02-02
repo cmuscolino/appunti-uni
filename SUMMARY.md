@@ -21,6 +21,7 @@
     * [I diversi tipi di test](completi/ingegneria-del-software/testing/i-diversi-tipi-di-test.md)
   * [UML](completi/ingegneria-del-software/uml.md)
 * [🏢OGA](work-in-progress/oga.md)
+* [🧮Architetture](completi/architetture.md)
 
 ## Incompleti
 
