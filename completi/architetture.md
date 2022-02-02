@@ -7,6 +7,10 @@ description: >-
 
 # 🧮Architetture
 
+## Risolutore di esercizi
+
+Non ti basta questa fantastica guida? C'è anche il risolutore di esercizi su Github! [architecture-helper](https://github.com/sgravato-productions/architecture-helper) così in caso ti inventi altri esercizi o ne trovi altro (dovrebbe) puoi testare la correttezza delle tue soluzioni.
+
 ## Pipeline (disegnare la pipeline)
 
 ### Testo
