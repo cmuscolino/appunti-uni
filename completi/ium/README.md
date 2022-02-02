@@ -2,7 +2,7 @@
 description: aa. 2021-2022
 ---
 
-# 👤IUM
+# 👤 IUM
 
 Ci sono due tipi di appunti:
 

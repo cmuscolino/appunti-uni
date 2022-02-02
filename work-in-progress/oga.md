@@ -5,7 +5,7 @@ description: >-
   aa.2021-2022
 ---
 
-# 🏢OGA
+# 🏢 OGA
 
 ## Beni e bisogni
 

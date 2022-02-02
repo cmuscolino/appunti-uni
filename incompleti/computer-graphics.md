@@ -2,7 +2,7 @@
 description: Appunti del corso di Computer Graphics.
 ---
 
-# Computer Graphics
+# 🌈 Computer Graphics
 
 ## Introduzione al corso
 
