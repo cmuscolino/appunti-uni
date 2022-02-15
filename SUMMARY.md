@@ -23,9 +23,10 @@
     * [I diversi tipi di test](completi/ingegneria-del-software/testing/i-diversi-tipi-di-test.md)
   * [UML](completi/ingegneria-del-software/uml.md)
 * [🏢 OGA](work-in-progress/oga.md)
-* [🧮 Architetture](completi/architetture.md)
+* [🖨️ Architetture](completi/architetture.md)
 
 ## Incompleti
 
+* [🧮 Algebra](incompleti/algebra.md)
 * [🌈 Computer Graphics](incompleti/computer-graphics.md)
 * [📟 Sistemi Digitali](incompleti/sistemi-digitali.md)

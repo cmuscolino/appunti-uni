@@ -5,7 +5,7 @@ description: >-
   13.01.2020
 ---
 
-# 🧮 Architetture
+# 🖨️ Architetture
 
 ## Risolutore di esercizi
 
