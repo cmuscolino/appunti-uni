@@ -3,7 +3,11 @@
 ## 🔝 Inizia da qui <a href="#start" id="start"></a>
 
 * [👋 Welcome!](README.md)
-* [☎️ Contatti - Email, GitHub...](start/contatti-email-github....md)
+* [☎️ Contatti](start/contatti/README.md)
+  * [💻 Github](https://github.com/dag7dev/)
+  * [💰 Paypal](https://paypal.me/therealdag7)
+  * [🌎 Sito Web](https://dag7.it)
+  * [✉️ Email](mailto:dag7@pm.me)
 
 ## Completi
 

@@ -8,10 +8,10 @@ Alcuni di questi appunti sono stati presi e importati da altri documenti condivi
 
 Spero vi possano essere utili!
 
-In caso di inesattezze, modifiche, o semplicemente volete ringraziarmi, date un'occhiata alla pagina dei Contatti.
+In caso di inesattezze, modifiche, o semplicemente volete ringraziarmi, date un'occhiata alla pagina dei Contatti o ai link a destra.
 
 {% hint style="info" %}
-Vuoi contattarmi? --> [contatti-email-github....md](start/contatti-email-github....md "mention")&#x20;
+Vuoi contattarmi? --> [contatti](start/contatti/ "mention")&#x20;
 {% endhint %}
 
 &#x20;
