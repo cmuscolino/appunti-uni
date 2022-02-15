@@ -22,6 +22,7 @@
   * [Testing](completi/ingegneria-del-software/testing/README.md)
     * [I diversi tipi di test](completi/ingegneria-del-software/testing/i-diversi-tipi-di-test.md)
   * [UML](completi/ingegneria-del-software/uml.md)
+  * [Architectural Pattern](completi/ingegneria-del-software/architectural-pattern.md)
 * [🏢 OGA](work-in-progress/oga.md)
 * [🖨️ Architetture](completi/architetture.md)
 
