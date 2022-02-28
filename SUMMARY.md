@@ -9,7 +9,13 @@
   * [🌎 Sito Web](https://dag7.it)
   * [✉️ Email](mailto:dag7@pm.me)
 
-## Completi
+## ⛑ WIP
+
+* [🔒 Sicurezza](wip/sicurezza/README.md)
+  * [Cifrario di Cesare](wip/sicurezza/cifrario-di-cesare.md)
+* [🌐 LTW](wip/ltw.md)
+
+## ✅ Completi
 
 * [👤 IUM](completi/ium/README.md)
   * [IUM - Raw](completi/ium/ium-raw.md)
@@ -30,7 +36,7 @@
 * [🏢 OGA](work-in-progress/oga.md)
 * [🖨️ Architetture](completi/architetture.md)
 
-## Incompleti
+## ❌ Incompleti
 
 * [🧮 Algebra](incompleti/algebra.md)
 * [🌈 Computer Graphics](incompleti/computer-graphics.md)
