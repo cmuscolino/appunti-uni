@@ -46,9 +46,11 @@ Concetti fondamentali:
 * **albero radicato**: da un albero prendo un vertice e lo scelgo come radice
 * **foresta**: un insieme di alberi
 
-### BFS
+### BFS e DFS
 
-Si rimanda alla pagina.
+{% content-ref url="dfs.md" %}
+[dfs.md](dfs.md)
+{% endcontent-ref %}
 
 {% content-ref url="bfs.md" %}
 [bfs.md](bfs.md)
