@@ -253,4 +253,64 @@ Considero C:
 * C'' --> b | B
 * C''' --> Bb | C
 
-### RIC:&#x20;
+## RIC: eliminare la ricorsione sinistra da una grammatica
+
+### Traccia (semplice)
+
+A --> BC | Ab | a\
+B --> Ad | CA | BA\
+C --> Bc | AC | CA | ε
+
+### Regolette
+
+Le regolette dicono:
+
+* quando elimino devo:
+  * produrre un altro simbolo (A' o quel che sia) che determinerà la parte a destra + A' e ε
+  * la stessa A, ma ogni vecchio simbolo gi aggiungo il nuovo
+* quando analizzo un simbolo e avevo già modificato alcuni dei simboli che lo componevano, devo riscrivere il simbolo che sto analizzando unendo i simboli modificati. Esempio: se ho A -> BC e B->AD e A -> BC lo ho ottenuto con una semplificazione, allora B dovrò riscriverlo come B -> BCD e poi risolvere la produzione ricorsiva che ho creato (B -> BCD per l'appunto)&#x20;
+
+### Svolgimento (traccia semplice)
+
+A prescindere, devo scrivere: ordino i non-terminali A1 = A, A2 = B, A3 = C
+
+**1.**\
+Analizzo A ed elimino A -> Ab (ricorsione immediata)
+
+Applico la regoletta:\
+A -> BCA' | aA'\
+A' -> bA' | ε\
+\
+Nuova grammatica:\
+A -> BCA' | aA'\
+A' -> bA' | ε\
+B -> Ad | CA | BA\
+C -> Bc | AC | CA | c\
+\
+**2.**\
+Analizzo B e sostituisco B -> Ad poiché A è cambiato\
+B -> BCA'd | aA'd | CA | BA\
+\
+Si sono formate delle fastidiose ricorsioni dirette. Le tolgo. (tolgo B -> BA, B -> BCA'd).\
+B -> aA'dB'B'' | CAB'B''\
+B' -> AB' | ε\
+B'' -> CA'dB'' | ε
+
+Nuova grammatica:\
+A -> BCA' | aA'\
+A' -> bA' | ε\
+B -> aA'dB'B'' | CAB'B''\
+B' -> AB' | ε\
+B'' -> CA'dB'' | ε\
+C -> Bc | AC | CA | c\
+\
+**3.**&#x20;
+
+Analizzo C. Riscrivo C con le B e le A cambiate.\
+C -> aA'dB'B''c | CAB'B''c | BCA'c | aA'c | CBCA' | CaA' | c\
+\
+Tolgo tutte le ricorsioni (C -> CAB'B''c, C -> CBCA' e C -> CaA'):\
+C -> aA'dB'B''cC'C''C''' | BCA'cC'C''C''' | aA'cC'C''C''' | cC'C''C'''\
+C' -> AB'B''cC' | ε\
+C'' -> BCA'C'' | ε\
+C''' -> aA'C''' | ε
