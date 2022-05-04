@@ -85,3 +85,66 @@ Mi disegno i vari automi e li unisco tra loro.
 Guardando l'albero astratto, parti dall'estrema sinistra e cominci a fare piccoli sottoautomi. Man mano che risali l'albero unisci a seconda di quello che trovi.
 
 ![disegno dell'automa finale, derivante dall'ER](<../.gitbook/assets/image (2).png>)
+
+## NFA: usare subset construction per costruire un DFA partendo da un NFA
+
+### Traccia
+
+![Automa originale](<../.gitbook/assets/image (9).png>)
+
+### Cosa bisogna fare
+
+1. Si sceglie uno stato iniziale, 0 nel nostro caso, e si calcola la sua ε-closure ossia seguendo le frecce con la ε, bisogna vedere dove si finisce. Questo andrà a formare il nostro stato di partenza. Nel nostro caso: {0,2,4) = A.
+2. Si calcola la move per lo stato A: per ogni stato in A vedo dove vanno gli stati con tutti gli input dell'automa, quindi, prima con a, poi con b e poi con c. Devo inoltre calcolare ogni volta la ε-closure. Ogni volta che trovo un nuovo gruppo "che non ho mai visto" creo un nuovo stato. Esempio: se calcolo la move di A, il gruppo di prima, con l'input a, ottengo ε-closure({1,2}) = {0,1,2,4}. Siccome non ho mai visto in precedenza questa partizione, posso chiamarla B. In seguito, calcolerò anche le sue move.
+3. Continuo finché non trovo altri stati
+
+### Calcoli e procedimento
+
+Promemoria efficaci:
+
+* dopo il secondo uguale, devo **SEMPRE** riscrivere gli stati che avevo scritto dopo il primo uguale
+* lo stato vuoto è uno stato, anche se poi non verrà mai raffigurato. In quanto tale ha un nome
+* se non finisco da nessuna parte, scriverò ∅
+
+1. Stato in D: ε-closure(0) = {0,2,4} (A)
+2. ε**-**closure(move(A, a)) = ε-closure({1,2}) = {0,1,2,4} (B) <-- dopo il primo uguale: "dove vado con input a da 0,2,4 (A)?". Dopo il secondo uguale: "dove vado con ε da 1 e 2?".
+3. ε**-**closure(move(A, b)) = ε-closure({1}) = {1} (C)
+4. ε**-**closure(move(A, c)) = ε-closure({3}) = {3} (D)\
+   Bene, ora ho come nuovi stati B, C e D. Devo continuare.
+5. ε**-**closure(move(B, a)) = ε-closure({1, 2}) = (B) <-- me l'ero già calcolato al passo 2
+6. ε**-**closure(move(B, b)) = ε-closure({1, 2}) = (B)
+7. ε**-**closure(move(B, c)) = ε-closure({3, 4}) = {0,2,3,4} (E)
+8. ε**-**closure(move(C, a)) = ε-closure({∅}) = {∅} (G)
+9. ε**-**closure(move(C, b)) = ε-closure({2}) = {0,2,4} (A)
+10. ε**-**closure(move(C, c)) = ε-closure({4}) = {0,2,4} (A)
+11. ε**-**closure(move(D, a)) = ε-closure({3}) = (D)
+12. ε**-**closure(move(D, b)) = ε-closure({∅}) = {∅} (G)
+13. ε**-**closure(move(D, c)) = ε-closure({2}) = (A)
+14. ε**-**closure(move(E, a)) = ε-closure({1, 2, 3}) = {0, 1, 2, 3, 4} (F)
+15. ε**-**closure(move(E, b)) = ε-closure({1}) = (C)
+16. ε**-**closure(move(E, c)) = ε-closure({2, 3}) = {0, 2, 3, 4} (E)
+17. ε**-**closure(move(F, a)) = ε-closure({1, 2, 3}) = (F)
+18. ε**-**closure(move(F, b)) = ε-closure({1, 2}) = (B)
+19. ε**-**closure(move(F, c)) = ε-closure({2, 3, 4}) = (E)
+20. G è uno stato vuoto. Siccome, tra le altre cose non ha archi uscenti, posso non rappresentarlo.&#x20;
+
+### Va bene, e adesso? Il DFA
+
+Gli stati finali del DFA sono tutti quelli in cui, nel lavoro fatto in precedenza compare almeno uno stato finale dell'NFA.
+
+Ad esempio, E contiene 2 e 4, dunque è sicuramente uno stato finale.
+
+Nell'NFA gli stati finali erano 2 e 4.
+
+Posso quindi disegnare l'automa (anche in forma tabellare):
+
+| stato / input | a | b | c |
+| ------------- | - | - | - |
+| A             | B | C | D |
+| B             | B | B | E |
+| C             | G | A | A |
+| D             | D | G | A |
+| **E**         | F | C | E |
+| F             | F | B | E |
+| G             | - | - | - |
+
