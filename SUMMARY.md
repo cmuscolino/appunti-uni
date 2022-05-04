@@ -17,6 +17,7 @@
 * [🌡️Algoritmi 2](wip/algoritmi-2/README.md)
   * [BFS](wip/algoritmi-2/bfs.md)
   * [DFS](wip/algoritmi-2/dfs.md)
+* [🖥 Linguaggi e Compilatori](wip/linguaggi-e-compilatori.md)
 
 ## ✅ Completi
 
