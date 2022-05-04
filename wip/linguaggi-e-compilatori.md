@@ -216,4 +216,41 @@ Posso quindi disegnare l'automa (anche in forma tabellare):
 
 ## FAT: fattorizzare una grammatica
 
-Vi ricordate i monomi e i polinomi fatti&#x20;
+### L'idea
+
+Ricordate i monomi e i polinomi fatti a scuola? Ecco, fattorizzare una grammatica vuol dire fare circa la stessa cosa: trovate i monomi simili, fate raccoglimento e con un po' di accortezze avrete fattorizzato una grammatica.&#x20;
+
+### Traccia
+
+A -> <mark style="color:blue;">AaB</mark>c | <mark style="color:purple;">AabC</mark>a | <mark style="color:orange;">AaCb</mark>A | <mark style="color:blue;">AaB</mark>C | <mark style="color:purple;">AabC</mark>B | <mark style="color:orange;">AaCb</mark>B | <mark style="color:blue;">AaB</mark>a | C\
+B -> <mark style="background-color:orange;">B</mark>BCB | <mark style="background-color:orange;">B</mark>cC | <mark style="background-color:orange;">B</mark>caA | <mark style="background-color:orange;">B</mark>Cb | <mark style="background-color:orange;">B</mark>Ba | <mark style="background-color:orange;">B</mark>caC | C\
+C -> <mark style="color:green;">Cc</mark>Bc | <mark style="background-color:purple;">CA</mark>b | <mark style="color:green;">Cc</mark> | <mark style="background-color:red;">CC</mark>Bb | <mark style="background-color:red;">CC</mark>C | <mark style="background-color:purple;">CA</mark>B | <mark style="color:green;">Cc</mark>Aa | c
+
+### Svolgimento
+
+Identifico i monomi e me li segno in qualche modo nella traccia.
+
+Considero A:
+
+* π = AaB, AabC, AaCb <-- ossia, tutte le parti in comune colorate che ho preso in considerazione quando ho raggruppato i monomi simili
+* A --> AaBA' | AabCA'' | AaCbA''' | C <-- prendo le parti "in comune" e per ogni gruppo ci aggiungo un A' poi A'' ecc. Se un monomio sta per conto suo, bisogna metterlo qui.
+  * le clausole con ', '' ecc conterranno i "pezzi diversi non in comune" con i monomi raggruppati prima. Esempio:   <mark style="color:blue;">AaB</mark>c e <mark style="color:blue;">AaB</mark>C in comune hanno AaB. Le loro parti non in comune sono c e C, che sono quelle che andranno a finire nella prima clausola.&#x20;
+* A' --> c | C | a
+* A'' --> a | B
+* A''' --> A | B
+
+Considero B:
+
+* π = B
+* B --> BB' | C
+* B' --> BCB | cC | caA | Cb | Ba | caC
+
+Considero C:
+
+* π = Cc, CA, CC
+* C --> CcC' | CAC'' | CCC''' | c
+* C' --> BC | Aa | ε
+* C'' --> b | B
+* C''' --> Bb | C
+
+### RIC:&#x20;
