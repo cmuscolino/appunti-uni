@@ -32,12 +32,11 @@ Regole da tenere ben presente:
 3.  AND (abc)\*:
 
     ```
-          *
-          |
-         / \
-        °   °
-       /     \
-      °       c
+        *
+        |
+        °
+       / \
+      °   c
      / \
     a   b
     ```
