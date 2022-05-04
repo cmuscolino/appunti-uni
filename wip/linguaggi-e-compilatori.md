@@ -148,3 +148,72 @@ Posso quindi disegnare l'automa (anche in forma tabellare):
 | F             | F | B | E |
 | G             | - | - | - |
 
+## MIN: minimizzare gli stati di un DFA
+
+### Traccia
+
+![DFA](<../.gitbook/assets/image (1).png>)
+
+### Risoluzione
+
+1. Scrivere fisso le seguenti cose:
+   1. sia Π partizione iniziale
+   2. sia Πnew partizione di lavoro
+   3. sia Πf DFA minimizzato
+   4. Σ = {a,b} <-- in questo caso a e b perché i simboli usati nell'automa sono solo questi due
+   5. Π = \{{1,3,9}, {0,2,4,5,7,8\}} <-- rispettivamente gli stati finali e i restanti
+2.  Analizza le partizioni che hai creato. Se le dividi, analizza prima quelle divise. **Ogni volta che dividi** dai un numero a quella partizione, sarà più comodo per altri calcoli che verranno fatti dopo. Costruisci la solita tabella "stato/input", avendo cura di segnare non tanto lo stato di destinazione, ma la partizione in cui si trova lo stato di destinazione.\
+    \
+    {1, 3, 9} (1), {0,2,4,5,7,8} (2) <-- tra parentesi tonde il "nome della partizione"\
+
+
+    | stato / input | a     | b     |
+    | ------------- | ----- | ----- |
+    | 1             | 5 (2) | 3 (1) |
+    | 3             | 9 (2) | 0 (2) |
+    | 9             | 2 (2) | 3 (1) |
+
+    Gli stati 1 e 9, a fronte dello stesso input vanno nella stessa partizione di output. Possono rimanere insieme, ma lo stato 3 se ne va per conto suo.\
+    **Πnew = {1, 9}(1) {3}(3) {2, 5, 8, 0, 4, 7} (2)**\
+    \
+    Il 3 non ha discrepanze e quindi non verrà più analizzato. (quando ho un singleton non lo considero).
+3.  Analizzo la nuova partizione {1, 9}
+
+    | stato / input | a     | b     |
+    | ------------- | ----- | ----- |
+    | 1             | 5 (2) | 3 (3) |
+    | 9             | 2 (2) | 3 (3) |
+
+    Tutto ok. Non posso fondere più di così.
+4.  Analizzo la partizione 2
+
+    | stato / input | a     | b     |
+    | ------------- | ----- | ----- |
+    | 0             | 9 (1) | 2 (2) |
+    | 2             | 0 (2) | 1 (1) |
+    | 4             | 1 (1) | 2 (2) |
+    | 5             | 4 (2) | 1 (1) |
+    | 7             | 1 (1) | 8 (2) |
+    | 8             | 7 (2) | 9 (1) |
+
+    Posso quindi staccare sia 0 4 7 che 2 5 8, sempre per il solito motivo che a fronte dello stesso input vanno nelle stesse partizioni di destinazione.\
+    \
+    **Πnew = {1, 9}(1) {3}(3) {2, 5, 8} (2) {0, 4, 7)(4)**\
+    ****
+5. Analizzo le partizioni rimanenti. Sono irriducibili.
+
+|   | a     | b     |
+| - | ----- | ----- |
+| 0 | 9 (1) | 2 (2) |
+| 4 | 1 (1) | 8 (2) |
+| 7 | 1 (1) | 8 (2) |
+
+|   | a     | b     |
+| - | ----- | ----- |
+| 2 | 0 (4) | 1 (1) |
+| 5 | 4 (4) | 1 (1) |
+| 8 | 7 (4) | 9 (1) |
+
+## FAT: fattorizzare una grammatica
+
+Vi ricordate i monomi e i polinomi fatti&#x20;
