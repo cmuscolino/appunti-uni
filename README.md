@@ -14,7 +14,7 @@ In caso di inesattezze, modifiche, o semplicemente volete ringraziarmi, date un'
 Vuoi contattarmi? --> [contatti](start/contatti/ "mention")&#x20;
 {% endhint %}
 
-&#x20;
+
 
 ### Link utili
 
@@ -23,3 +23,7 @@ Vuoi contattarmi? --> [contatti](start/contatti/ "mention")&#x20;
 * [psd-helper](https://github.com/sgravato-productions/psd-helper) risolutore di esercizi di **Progettazione Sistemi Digitali** (mai terminato, se vuoi dare una mano sei il benvenuto)
 * [architecture-helper](https://github.com/sgravato-productions/architecture-helper) risolutore di esercizi di **Architetture degli Elaboratori**
 * [altre repo interessanti sul mio Github](https://github.com/dag7dev)
+
+### Licenza
+
+Tutti gli appunti sono rilasciati sotto [Licenza CC-BY-NC](https://creativecommons.org/licenses/by-nc/4.0/deed.it).
