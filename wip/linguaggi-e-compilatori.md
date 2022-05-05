@@ -103,7 +103,7 @@ Guardando l'albero astratto, parti dall'estrema sinistra e cominci a fare piccol
 Promemoria efficaci:
 
 * dopo il secondo uguale, devo **SEMPRE** riscrivere gli stati che avevo scritto dopo il primo uguale
-* lo stato vuoto è uno stato, anche se poi non verrà mai raffigurato. In quanto tale ha un nome
+* lo stato vuoto è uno stato come tutti gli altri. In quanto tale ha un nome. Alla fine, verrà rappresentato come uno stato che non ha frecce entranti verso gli altri stati, e ogni input andrà in sé stesso.
 * se non finisco da nessuna parte, scriverò ∅
 
 1. Stato in D: ε-closure(0) = {0,2,4} (A)
@@ -136,17 +136,17 @@ Ad esempio, E contiene 2 e 4, dunque è sicuramente uno stato finale.
 
 Nell'NFA gli stati finali erano 2 e 4.
 
-Posso quindi disegnare l'automa (anche in forma tabellare):
+Posso quindi disegnare l'automa (va bene anche la forma tabellare, in grassetto gli stati finali):
 
 | stato / input | a | b | c |
 | ------------- | - | - | - |
-| A             | B | C | D |
-| B             | B | B | E |
-| C             | G | A | A |
-| D             | D | G | A |
+| **A**         | B | C | D |
+| **B**         | B | B | E |
+| **C**         | G | A | A |
+| **D**         | D | G | A |
 | **E**         | F | C | E |
-| F             | F | B | E |
-| G             | - | - | - |
+| **F**         | F | B | E |
+| **G**         | G | G | G |
 
 ## MIN: minimizzare gli stati di un DFA
 
