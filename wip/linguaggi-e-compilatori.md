@@ -261,22 +261,25 @@ Considero C:
 
 ## RIC: eliminare la ricorsione sinistra da una grammatica
 
-### Traccia (semplice)
+### Regolette
+
+<mark style="color:red;">SEGUIRE IL SACROSANTO ORDINE</mark>
+
+1. PRIMA <mark style="color:red;">sostituisco</mark>, se c'è qualcosa da sostituire: il concetto dei pronomi. Ad esempio ho A -> xA | Bc e B -> Az | Cy, dovrò dunque modificare B -> Az, e quindi avrò B -> xAz | Bcz | Cy
+2. POI <mark style="color:red;">elimino</mark> eventuali ricorsioni
+   1. nell'esempio di prima: voglio eliminare la ricorsione B -> Bcz
+   2. Divido B in due: B -> xAzB' | CyB' e poi B' -> czB' | ε
+   3. Il primo pezzo si ottiene riscrivendo B di prima, tranne quella che voglio eliminare e ad ogni produzione gli aggiungo B'
+   4. Il secondo pezzo si ottiene scrivendo la parte destra della ricorsiva che volevo togliere, tolgo la B, aggiungo la B' alla fine ed ε
+3. Non ritorno **mai** su una cosa che avevo già analizzato. Il procedimento è lineare, e una volta che ho finito con A, basta, non posso più modificarlo.
+
+### ES1: Traccia (semplice)
 
 A --> BC | Ab | a\
 B --> Ad | CA | BA\
 C --> Bc | AC | CA | ε
 
-### Regolette
-
-Le regolette dicono:
-
-* quando elimino devo:
-  * produrre un altro simbolo (A' o quel che sia) che determinerà la parte a destra + A' e ε
-  * la stessa A, ma ogni vecchio simbolo gi aggiungo il nuovo
-* quando analizzo un simbolo e avevo già modificato alcuni dei simboli che lo componevano, devo riscrivere il simbolo che sto analizzando unendo i simboli modificati. Esempio: se ho A -> BC e B->AD e A -> BC lo ho ottenuto con una semplificazione, allora B dovrò riscriverlo come B -> BCD e poi risolvere la produzione ricorsiva che ho creato (B -> BCD per l'appunto)&#x20;
-
-### Svolgimento (traccia semplice)
+### ES1: Svolgimento (semplice)
 
 A prescindere, devo scrivere: ordino i non-terminali A1 = A, A2 = B, A3 = C
 
@@ -320,3 +323,68 @@ C -> aA'dB'B''cC'C''C''' | BCA'cC'C''C''' | aA'cC'C''C''' | cC'C''C'''\
 C' -> AB'B''cC' | ε\
 C'' -> BCA'C'' | ε\
 C''' -> aA'C''' | ε
+
+### ES2: Traccia (impegnativa)
+
+A -> xA | By\
+B -> Cy | Bw | Az\
+C -> Aw | Bz | Cz | x
+
+### ES2: Svolgimento (impegnativa)
+
+Analizzo A: non ci sono ricorsioni o sostituzioni che posso fare. Passo a B
+
+Analizzo B:
+
+* Cy -> C non l'ho analizzato, avanti
+* Bw -> ricorsione, vorrei toglierla
+* Az -> posso sostituire A, so già cosa produce, l'ho già analizzata
+
+Le regolette dicono: prima sostituisci, poi elimini le ricorsioni, quindi vado a sostituire; al posto della A ci metti le produzioni di A e distribuisci le lettere che c'erano prima (z in questo caso).
+
+* B -> Cy | Bw | xAz | Byz
+
+Nuova grammatica temporanea:
+
+* A -> xA | By\
+  B -> Cy | Bw | xAz | Byz\
+  C -> Aw | Bz | Cz | x
+
+Ora togli le ricorsioni: ce ne sono ben 2, rispettivamente B -> Bw e B -> Byz.
+
+Secondo le regolette, B devo riscriverla togliendo le produzioni ricorsive e aggiungendo B' ad ogni produzione restante. B' invece devo metterci i pezzi che ho tolto delle ricorsioni. A quei pezzi gli tolgo B, aggiungo B' alla fine e alla fine di tutto ci metto ε. Quindi:
+
+* B -> CyB' | xAzB'
+* B' -> wB' | yzB' |  ε
+
+Nuova grammatica temporanea:
+
+* A -> xA | By\
+  B -> CyB' | xAzB'\
+  B' -> wB' | yzB' |  ε\
+  C -> Aw | Bz | Cz | x
+
+Analizzo C, solita regoletta: posso sostiture? Sì, A e B li ho già analizzati.
+
+* C -> xAw | Byw | CyB'z | xAzB'z | Cz | x
+
+Nuova grammatica temporanea:
+
+* A -> xA | By\
+  B -> CyB' | xAzB'\
+  B' -> wB' | yzB' |  ε\
+  C -> xAw | Byw | CyB'z | xAzB'z | Cz | x
+
+Tolgo le ricorsioni:
+
+* C -> xAwC' | BywC' | xAzB'zC' | xC'\
+  C' -> yB'zC' | zC' | ε
+
+Grammatica finale:
+
+* A -> xA | By\
+  B -> CyB' | xAzB'\
+  B' -> wB' | yzB' |  ε\
+  C -> xAwC' | BywC' | xAzB'zC' | xC'\
+  C' -> yB'zC' | zC' | ε
+
