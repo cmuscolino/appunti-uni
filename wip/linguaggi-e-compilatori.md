@@ -220,6 +220,8 @@ Posso quindi disegnare l'automa (va bene anche la forma tabellare, in grassetto 
 | 5 | 4 (4) | 1 (1) |
 | 8 | 7 (4) | 9 (1) |
 
+**Importantissimo:** pure se sono irriducibili devi comunque fare il giro "a vuoto". Finisci SOLO quando non cambi più nulla.
+
 ## FAT: fattorizzare una grammatica
 
 ### L'idea
