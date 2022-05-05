@@ -1,3 +1,9 @@
+---
+description: >-
+  aa. 2021-2022: si ringraziano gli studenti R. B. e I. S. per le correzioni e
+  revisioni
+---
+
 # 🖥 Linguaggi e Compilatori
 
 ## ER: costruire NFA a partire da un'espressione regolare
