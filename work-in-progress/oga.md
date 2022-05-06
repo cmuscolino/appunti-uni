@@ -106,7 +106,7 @@ Le motivazioni alla base dell'istituzione di un'azienda possono essere diverse, 
 
 ### Da cosa è costituita un'azienda
 
-![il lavoro, il capitale e l'organizzazione](<../.gitbook/assets/image (1) (1) (1) (1).png>)
+![il lavoro, il capitale e l'organizzazione](<../.gitbook/assets/image (1) (1) (1) (1) (1).png>)
 
 Da tre cose:
 
@@ -593,7 +593,7 @@ Bisogna **scrivere su ogni post-it un'idea** che poi verrà attaccata nel riquad
 
 Di solito **si parte dai segmenti di clientela.**
 
-![domande utili per redigere un canvas ](../.gitbook/assets/image.png)
+![domande utili per redigere un canvas ](<../.gitbook/assets/image (1).png>)
 
 ## Jobs (to be done) Theory
 
@@ -637,7 +637,7 @@ C'è una **continua ricerca** del miglior modo possibile per **trovare la novit�
 
 ## Progettazione (simil-Agile UCD)
 
-![](<../.gitbook/assets/image (1) (1).png>)
+![](<../.gitbook/assets/image (1) (1) (1).png>)
 
 Se non conosci o non hai mai fatto Interazione Uomo Macchina (IUM), le fasi vengono comunque spiegate. È comunque opportuno rileggerle quindi si suggerisce di **non saltare questa sezione,** ma fa comodo ricordarsi che sono simili a quelle di IUM.&#x20;
 
@@ -729,7 +729,7 @@ Servono per **immaginare** possibili futuri, ma non possono predire il futuro.
 
 ## Introduzione al business planning
 
-![mappa: pianificazione, bussola: business plan](<../.gitbook/assets/image (4).png>)
+![mappa: pianificazione, bussola: business plan](<../.gitbook/assets/image (4) (1).png>)
 
 ### Pianificazione e BP
 

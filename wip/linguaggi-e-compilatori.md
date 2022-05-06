@@ -158,7 +158,7 @@ Posso quindi disegnare l'automa (va bene anche la forma tabellare, in grassetto 
 
 ### Traccia
 
-![DFA](<../.gitbook/assets/image (1).png>)
+![DFA](<../.gitbook/assets/image (1) (1).png>)
 
 ### Risoluzione
 
@@ -276,3 +276,20 @@ Considero C:
    5. **NB: Se dovessi avere dopo la sostituzione, roba che è ancora sostituibile devo sostituire. Esempio: se sostituisco B -> Ab | c, e A me l'ero già calcolato, devo sostituirlo.**
 3. Non ritorno **mai** su una cosa che avevo già analizzato. Il procedimento è lineare, e una volta che ho finito con A, basta, non posso più modificarlo.
 
+## First e follow
+
+### First: TODO
+
+### Follow
+
+Devo avere ben presente questa tabella:
+
+![](../.gitbook/assets/image.png)
+
+A seconda della follow che sto facendo, mi vado a vedere dove sta la lettera della follow (in quale "monomio").
+
+Siccome si chiama follow, devo vedere in che forma sta tramite la tabella, e regolarmi di conseguenza.
+
+![](<../.gitbook/assets/image (4).png>)
+
+follow(C): dove compare C? bBCe -> aggiungo e, primo caso ecc\
