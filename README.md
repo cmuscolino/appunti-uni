@@ -4,17 +4,17 @@
 
 Questa è la pagina Home di tutti i miei appunti universitari.
 
-Alcuni di questi appunti sono stati presi e importati da altri documenti condivisi, altri sono stati scritti da zero.
+Alcuni di questi appunti sono stati presi e importati da documenti condivisi, altri sono stati scritti da zero.
 
-Spero vi possano essere utili!
+Spero possano esservi utili!
 
-In caso di inesattezze, modifiche, o semplicemente volete ringraziarmi, date un'occhiata alla pagina dei Contatti o ai link a destra.
+In caso di inesattezze, modifiche, o semplicemente volete ringraziarmi, [clicca qui](start/contatti/)!
 
 {% hint style="info" %}
 Vuoi contattarmi? --> [contatti](start/contatti/ "mention")&#x20;
 {% endhint %}
 
-
+> Vuoi vendere i miei appunti? Dai un'occhiata qui: [Licenza CC-BY-NC](https://creativecommons.org/licenses/by-nc/4.0/deed.it).
 
 ### Link utili
 
