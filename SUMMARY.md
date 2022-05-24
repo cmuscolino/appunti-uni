@@ -11,8 +11,6 @@
 
 ## ⛑ WIP
 
-* [🔒 Sicurezza](wip/sicurezza/README.md)
-  * [Cifrario di Cesare](wip/sicurezza/cifrario-di-cesare.md)
 * [🌐 LTW](wip/ltw.md)
 * [🌡️Algoritmi 2](wip/algoritmi-2/README.md)
   * [BFS](wip/algoritmi-2/bfs.md)
@@ -44,4 +42,6 @@
 
 * [🧮 Algebra](incompleti/algebra.md)
 * [🌈 Computer Graphics](incompleti/computer-graphics.md)
+* [🔒 Sicurezza](incompleti/sicurezza/README.md)
+  * [Cifrario di Cesare](incompleti/sicurezza/cifrario-di-cesare.md)
 * [📟 Sistemi Digitali](incompleti/sistemi-digitali.md)

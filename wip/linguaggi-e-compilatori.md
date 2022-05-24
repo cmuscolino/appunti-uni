@@ -276,6 +276,59 @@ Considero C:
    5. **NB: Se dovessi avere dopo la sostituzione, roba che è ancora sostituibile devo sostituire. Esempio: se sostituisco B -> Ab | c, e A me l'ero già calcolato, devo sostituirlo.**
 3. Non ritorno **mai** su una cosa che avevo già analizzato. Il procedimento è lineare, e una volta che ho finito con A, basta, non posso più modificarlo.
 
+### Traccia
+
+A -> xA | By\
+B -> Cy | Bw | Az\
+C -> Aw | Bz | Cz | x
+
+### Svolgimento
+
+1. Guardo la prima riga. Analizzo A: non ci sono operazioni da effettuare. Non succede nulla. Non ci sono ricorsioni dirette e non possiamo sostituire alcunché. Infatti A -> By, potremmo sostituire B, ma non possiamo farlo adesso perché B non lo abbiamo ancora analizzato.\
+   \
+   Scrivo:\
+   \> Analizzo A: non ci sono operazioni da effettuare
+2. Analizzo B: notiamo che B -> Az può essere riscritta: dobbiamo sostituire alla A, la parte destra della produzione di A (che sarebbe xA | By) seguita da z, poiché c'è Az.\
+   \
+   Applico la regola 1 -> riscrivo pari pari la produzione di B:\
+   B -> Cy | Bw | xA\
+   e aggiungo z\
+   B -> Cy | B**w** | xAz | B**yz**\
+   \
+   Applico adesso la regoletta 2 -> tolgo le ricorrenze immediate: B -> Bw e B -> Byz.\
+   Riscrivo B con tutte le produzioni meno quelle che voglio togliere:\
+   B -> CyB' | xAzB' \
+   poi, prendo le parti che mi interessano e ci aggiungo B' + simbolo di vuoto come produzione finale:\
+   B' -> **w**B' | **yz**B' | e
+3. Riscrivo la grammatica aggiornata:\
+   A -> xA | By\
+   B -> CyB' | xAzB' \
+   B' -> wB' | yzB' | e\
+   C -> Aw | Bz | Cz | x
+4. Ho finito con B, ora vado su C.\
+   Analizzo C: notiamo che C -> Aw e C -> Bz possono essere riscritti\
+   \
+   C -> xAw | Byw | CyB'z | xAzB'z | Cz | x\
+   \
+   Finito il passo 1? No. Possiamo continuare a sostituire!\
+   \
+   C -> xAw | CyB'yw | xAzB'yw | CyB'z | xAzB'z | Cz | x\
+   \
+   Finito il passo 1? Sì.\
+   \
+   Posso togliere le ricorrenze immediate: C -> CyB'yw, C -> CyB'z, C -> Cz\
+   \
+   Solita cosa: riscrivo tutto C.\
+   C -> xAwC' | xAzB'ywC' | xAzB'zC' | xC'\
+   C' -> yB'ywC' | yB'zC' | zC' | e
+5. Grammatica finale:\
+   A -> xA | By\
+   B -> CyB' | xAzB' \
+   B' -> wB' | yzB' | e\
+   C -> xAwC' | xAzB'ywC' | xAzB'zC' | xC'\
+   C' -> yB'ywC' | yB'zC' | zC' | e\
+
+
 ## First e follow
 
 ### First: TODO
