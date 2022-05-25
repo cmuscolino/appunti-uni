@@ -409,7 +409,7 @@ Serve a conoscere lo stato di salute della propria posizione sul mercato e agire
 
 Può essere uno spunto per apportare **modifiche incrementali** (ancora Agile) o per **innovare** il modello.
 
-![Non fare mai la valutazione porta al fallimento](<../.gitbook/assets/image (5) (1).png>)
+![Non fare mai la valutazione porta al fallimento](<../.gitbook/assets/image (5) (1) (1).png>)
 
 Esistono **due tipi** di valutazione**:**
 
@@ -729,7 +729,7 @@ Servono per **immaginare** possibili futuri, ma non possono predire il futuro.
 
 ## Introduzione al business planning
 
-![mappa: pianificazione, bussola: business plan](<../.gitbook/assets/image (4) (1) (1).png>)
+![mappa: pianificazione, bussola: business plan](<../.gitbook/assets/image (4) (1) (1) (1).png>)
 
 ### Pianificazione e BP
 

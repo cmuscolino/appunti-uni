@@ -343,7 +343,7 @@ A seconda della follow che sto facendo, mi vado a vedere dove sta la lettera del
 
 Siccome si chiama follow, devo vedere in che forma sta tramite la tabella, e regolarmi di conseguenza.
 
-![](<../.gitbook/assets/image (4) (1).png>)
+![](<../.gitbook/assets/image (4) (1) (1).png>)
 
 follow(C): dove compare C? bBCe -> aggiungo e, primo caso ecc\
 
@@ -575,7 +575,7 @@ Iniziamo: chi è che ha il minor numero di archi in assoluto? il nodo l (è una 
 
 Ridisegnamo il grafo, facendo una bella croce su l.
 
-![](<../.gitbook/assets/image (5).png>)
+![](<../.gitbook/assets/image (5) (1).png>)
 
 Rimuoviamo tutti gli archi di l e andiamo a ridisegnare il grafo.
 
@@ -591,7 +591,7 @@ Il caso 2 ci dice "prendi quello col maggior numero di archi e toglilo.
 
 In questo caso è C, perché ne ha 7, e quindi tolgo C. Ci scrivo però anche un bel "TOSPILL" a destra. È importante!
 
-![](<../.gitbook/assets/image (4).png>)
+![](<../.gitbook/assets/image (4) (1).png>)
 
 Proseguo finché non arrivo alla fine.
 
@@ -633,5 +633,7 @@ Non richiesto dall'esercizio, ma riportato comunque per comodità, ecco la color
 ![](<../.gitbook/assets/image (1).png>)
 
 ## ER: Erschev e assembly
+
+![Questo è Andrey Erschev, il tizio dell'algoritmo](<../.gitbook/assets/image (4).png>) ![Da non confondere con "Er Che", ossia Ernesto Cheguevara, ](<../.gitbook/assets/image (5).png>)
 
 TODO
