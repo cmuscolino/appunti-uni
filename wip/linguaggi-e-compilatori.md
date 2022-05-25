@@ -158,7 +158,7 @@ Posso quindi disegnare l'automa (va bene anche la forma tabellare, in grassetto 
 
 ### Traccia
 
-![DFA](<../.gitbook/assets/image (1) (1) (1).png>)
+![DFA](<../.gitbook/assets/image (1) (1) (1) (1).png>)
 
 ### Risoluzione
 
@@ -435,8 +435,13 @@ Tre passi fondamentali:
 
 1. **Albero astratto**
    1. Per disegnare l'albero astratto parto sempre da x.
-   2. L'associatività sta a sinistra, quindi conviene partire da destra verso sinistra
-   3. Quando sto disegnando l'albero, e noto che α1 l'ho già disegnato da qualche parte, basta fare un cerchio che va dall'originale alla posizione attuale (dovrei avrei disegnato α1).
+   2. L'**associatività sta a sinistra**, quindi conviene partire da destra verso sinistra
+   3. **NORMALMENTE**  salvo dove specificatamente indicato l'ordine di priorità è il seguente:
+      * **PRIMA** le x
+      * Poi i ->
+   4. **NORMALMENTE** salvo dove diversamente specificato, l'associatività è tutta a **SINISTRA DI TUTTO**
+      * vale a dire: se ho 'a1 x a2 x a3' devo immaginarmele come '(a1 x a2) x a3' come se a2 fosse in mezzo e decidesse a chi unirsi... quindi posso mettere le parentesi
+   5. Quando sto disegnando l'albero, e noto che α1 l'ho già disegnato da qualche parte, basta fare un cerchio che va dall'originale alla posizione attuale (dovrei avrei disegnato α1).
 2. **Ordine DFS**
    1. Quando stabilisco l'ordine di visita, **non devo contare** i "buchi" lasciati dai cerchi "al posto di α1"
 3. **Unify e scelta del rappresentante** - **** presi a coppie, si verificano questi casi:
@@ -455,7 +460,13 @@ Tre passi fondamentali:
 
 Qui non c'è molto da spiegare, c'è bisogno di molta pratica.
 
-![se vuoi fare la prova: avviare una visita in DFS. Se l'espressione che risulta è identica a quella della traccia, allora l'albero è stato costruito correttament](<../.gitbook/assets/image (6).png>)
+**Esercizio base "normale"**
+
+![se vuoi fare la prova: avviare una visita in DFS. Se l'espressione che risulta è identica a quella della traccia, allora l'albero è stato costruito correttamente](<../.gitbook/assets/image (6) (1).png>)
+
+Esercizio difficile: priorità invertita (prima-> , poi x... normalmente è il contrario) e **associatività a destra**
+
+![](<../.gitbook/assets/image (6).png>)
 
 ### Passo 2: stabilire l'ordine di visita DFS
 
@@ -467,7 +478,7 @@ Questo passo è già segnato nell'immagine qui sopra.
 
 ### Passo 3: chiamare la unify e scelta dei rappresentanti
 
-Idealmente i due alberi vanno di pari passo. Devo analizzare i due alberi a coppie a partire dalle radici, e vedere cosa posso unire. In questo caso, si inizia dall'alto 1 e 7: sono le radici degli alberi.
+Idealmente i due alberi vanno di pari passo. Devo analizzare i due alberi a coppie a partire dalle radici, e vedere cosa posso unire. Nel caso semplice si inizia dall'alto 1 e 7: sono le radici degli alberi.
 
 Ecco i **quattro casi** seguiti dal criterio di scelta del rappresentante:&#x20;
 
@@ -479,9 +490,19 @@ Ecco i **quattro casi** seguiti dal criterio di scelta del rappresentante:&#x20;
 4. 1 e 7, **uno dei due** è una variabile (è un α insomma)
    1. scelgo l'operatore
 
-**NOTA: devo ricordarmi che esiste anche l'approccio grafico, quindi non occorre riscrivere tutto da capo.**
+Nel caso difficile devo prendo 1 e 18.
 
-**Immagine di esempio: TODO**&#x20;
+**Risoluzione caso difficile:**
+
+****![](<../.gitbook/assets/image (11).png>)****![](<../.gitbook/assets/image (1).png>)****
+
+**DEVO USARE l'approccio grafico, quindi non occorre riscrivere tutto da capo.**
+
+Qui sotto, una possibile soluzione senza approccio grafico del caso semplice.
+
+Non si raccomanda di usare questo approccio, perché porta a una scrittura prolissa dell'esercizio, dovendo ricopiare ogni volta ciò che accade.
+
+**Risoluzione caso semplice:**
 
 L'ordine di scansione sarà quindi
 
@@ -522,11 +543,15 @@ Quindi:
 
 ### Passo 4: scrivere le classi di equivalenza
 
-Le classi di equivalenza ottenute sono:
+Per l'esercizio semplice, le classi di equivalenza ottenute sono:
 
 \{{1,7}, {2,8}, {3,9}, {4, 10}, {5,11}, {6,12\}}
 
 Scrivere in alto, sopra ogni classe, i vari rappresentanti presi prima, per ogni classe di equivalenza (1 2 3 4 11 e 6).
+
+\---
+
+Per l'esercizio difficile basta fare la stessa cosa.
 
 ## DOM
 
@@ -634,10 +659,10 @@ Quindi:
 
 Non richiesto dall'esercizio, ma riportato comunque per comodità, ecco la colorazione del grafo finale:
 
-![](<../.gitbook/assets/image (1).png>)
+![](<../.gitbook/assets/image (1) (1).png>)
 
 ## ER: Erschev e assembly
 
-![Questo è Andrey Erschev, il tizio dell'algoritmo](<../.gitbook/assets/image (4).png>) ![Da non confondere con "Er Che", ossia Ernesto Cheguevara, ](<../.gitbook/assets/image (5).png>)
+![Questo è Andrey Erschev, il tizio dell'algoritmo](<../.gitbook/assets/image (4).png>) ![Da non confondere con "Er Che", ossia Ernesto Cheguevara](<../.gitbook/assets/image (5).png>)
 
-TODO
+###
