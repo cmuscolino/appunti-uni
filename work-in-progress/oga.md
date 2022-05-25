@@ -597,13 +597,13 @@ Di solito **si parte dai segmenti di clientela.**
 
 ## Jobs (to be done) Theory
 
-![sì esatto, è proprio lui: l'omino che spara il fuoco (del quale non possiamo dire il nome)](<../.gitbook/assets/image (2) (1) (1).png>)
+![sì esatto, è proprio lui: l'omino che spara il fuoco (del quale non possiamo dire il nome)](<../.gitbook/assets/image (2) (1) (1) (1).png>)
 
 I clienti non si limitano ad acquistare beni, ma chiedono loro di **svolgere un compito molto specifico** a seconda della situazione, ossia è come se "assumessero" i prodotti e li "licenziassero" quando non ne hanno più bisogno.
 
 ### Teoria "cliento-centrista"
 
-![questo è Copernico; la teoria sua afferma che la terra sta ferma e il mondo gli gira intorno, tuttavia in questo caso il meme è filosofico: nonostante ciò che succede oggi, il meme ha ragione o no?](<../.gitbook/assets/image (2) (1) (1) (1).png>)
+![questo è Copernico; la teoria sua afferma che la terra sta ferma e il mondo gli gira intorno, tuttavia in questo caso il meme è filosofico: nonostante ciò che succede oggi, il meme ha ragione o no?](<../.gitbook/assets/image (2) (1) (1) (1) (1).png>)
 
 Il cliente è **al centro di tutto**. Fino a qualche anno fa, l'imprenditore aveva la sua attenzione a vendere i prodotti, ora il focus lo ha sul cliente.
 

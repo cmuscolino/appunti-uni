@@ -90,7 +90,7 @@ Mi disegno i vari automi e li unisco tra loro.
 
 Guardando l'albero astratto, parti dall'estrema sinistra e cominci a fare piccoli sottoautomi. Man mano che risali l'albero unisci a seconda di quello che trovi.
 
-![disegno dell'automa finale, derivante dall'ER](<../.gitbook/assets/image (2) (1).png>)
+![disegno dell'automa finale, derivante dall'ER](<../.gitbook/assets/image (2) (1) (1).png>)
 
 ## NFA: usare subset construction per costruire un DFA partendo da un NFA
 
@@ -599,7 +599,7 @@ Proseguo finché non arrivo alla fine.
 
 Qua c'è un altro TOSPILL da fare!
 
-![](<../.gitbook/assets/image (2).png>)
+![](<../.gitbook/assets/image (2) (1).png>)
 
 Finalmente ho finito!
 
