@@ -329,7 +329,7 @@ C -> Aw | Bz | Cz | x
    C' -> yB'ywC' | yB'zC' | zC' | e\
 
 
-## First e follow
+## FF: First e follow
 
 ### First: TODO
 
@@ -348,7 +348,7 @@ Siccome si chiama follow, devo vedere in che forma sta tramite la tabella, e reg
 follow(C): dove compare C? bBCe -> aggiungo e, primo caso ecc\
 
 
-## LR(0)
+## BU: LR(0)
 
 ### Traccia
 
@@ -414,7 +414,7 @@ Poi basta, proprio come l'esercizio sulle chiusure, continuo sino a quando non t
 
 ![. i13 in realtà è i12, i17 non toccherebbe calcolarlo: infatti goto(i13, B) va in i10, basta scrivere i10](<../.gitbook/assets/immagine (1).png>)
 
-## Unify
+## UN: Unify
 
 ### Traccia
 
@@ -528,7 +528,7 @@ Scrivere in alto, sopra ogni classe, i vari rappresentanti presi prima, per ogni
 
 ### TODO
 
-## Inference Graph
+## IG: Inference Graph - colorazione grafo
 
 ### Traccia
 
@@ -632,4 +632,6 @@ Non richiesto dall'esercizio, ma riportato comunque per comodità, ecco la color
 
 ![](<../.gitbook/assets/image (1).png>)
 
-&#x20;
+## ER: Erschev e assembly
+
+TODO
