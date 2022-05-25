@@ -412,6 +412,6 @@ Poi basta, proprio come l'esercizio sulle chiusure, continuo sino a quando non t
 
 ![](../.gitbook/assets/immagine.png)
 
-![](<../.gitbook/assets/immagine (2).png>)
+![i7, i8, i9 non li analizzo: hanno gia il pallino a destra. i13 in realtà è i12](<../.gitbook/assets/immagine (2).png>)
 
-![](<../.gitbook/assets/immagine (1).png>)
+![. i13 in realtà è i12, i17 non toccherebbe calcolarlo: infatti goto(i13, B) va in i10, basta scrivere i10](<../.gitbook/assets/immagine (1).png>)
