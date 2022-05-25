@@ -415,3 +415,113 @@ Poi basta, proprio come l'esercizio sulle chiusure, continuo sino a quando non t
 ![i7, i8, i9 non li analizzo: hanno gia il pallino a destra. i13 in realtà è i12](<../.gitbook/assets/immagine (2).png>)
 
 ![. i13 in realtà è i12, i17 non toccherebbe calcolarlo: infatti goto(i13, B) va in i10, basta scrivere i10](<../.gitbook/assets/immagine (1).png>)
+
+## Unify
+
+### Traccia
+
+α1 × (α2 → α1) × (α1 → α2)\
+α3 × ((α2 → α1) → α3) × α4
+
+### Cosa bisogna fare
+
+Anche qui seguiamo la "logica dei pronomi".
+
+Tre passi fondamentali:
+
+1. **albero astratto**: molto semplice, stile "ADT" (vedi ER: passo 1)
+2. stabilire **ordine di visita DFS**: la classica visità in profondità, basta solo ricordarsi che i "pronomi"
+3. applicare la **unify** e **scegliere i rappresentanti**
+
+### Regolette
+
+1. **Albero astratto**
+   1. Per disegnare l'albero astratto parto sempre da x.
+   2. L'associatività sta a sinistra, quindi conviene partire da destra verso sinistra
+   3. Quando sto disegnando l'albero, e noto che α1 l'ho già disegnato da qualche parte, basta fare un cerchio che va dall'originale alla posizione attuale (dovrei avrei disegnato α1).
+2. **Ordine DFS**
+   1. Quando stabilisco l'ordine di visita, **non devo contare** i "buchi" lasciati dai cerchi "al posto di α1"
+3. **Unify e scelta del rappresentante** - **** presi a coppie, si verificano questi casi:
+   1. non si verifica mai
+   2. 1 e 7 rappresentano lo **stesso tipo** (esempio, sono due α)
+      1. scelgo uno dei due
+   3. 1 e 7 sono **operatori** con due figli
+      1. scelgo uno dei due
+   4. 1 e 7, **uno dei due** è una variabile (è un α insomma)
+      1. scelgo l'operatore
+4.  Scrivo le **classi di equivalenza**
+
+    ****
+
+### Passo 1: disegno del type graph
+
+Qui non c'è molto da spiegare, c'è bisogno di molta pratica.
+
+![se vuoi fare la prova: avviare una visita in DFS. Se l'espressione che risulta è identica a quella della traccia, allora l'albero è stato costruito correttament](<../.gitbook/assets/image (5).png>)
+
+### Passo 2: stabilire l'ordine di visita DFS
+
+Lanciare una DFS e segnare l'ordine di vista accanto a ogni nodo. Ad esempio, x sarà il nodo radice, quindi scriverò 1 ecc
+
+L'unica cosa da tener presente è che: quando ho un α già referenziata non la conto nella visita.
+
+Questo passo è già segnato nell'immagine qui sopra.
+
+### Passo 3: chiamare la unify e scelta dei rappresentanti
+
+Idealmente i due alberi vanno di pari passo. Devo analizzare i due alberi a coppie a partire dalle radici, e vedere cosa posso unire. In questo caso, si inizia dall'alto 1 e 7: sono le radici degli alberi.
+
+Ecco i **quattro casi** seguiti dal criterio di scelta del rappresentante:&#x20;
+
+1. non si verifica mai
+2. 1 e 7 rappresentano lo **stesso tipo** (esempio, sono due α)
+   1. scelgo uno dei due
+3. 1 e 7 sono **operatori** con due figli
+   1. scelgo uno dei due
+4. 1 e 7, **uno dei due** è una variabile (è un α insomma)
+   1. scelgo l'operatore
+
+L'ordine di scansione sarà quindi
+
+* 1,7
+* 2,8
+* 3,9
+* 4,10
+* 5,11
+
+Torno indietro e scopro anche 6,12
+
+* 6,12
+
+Chiamo le unify in questo ordine, per la scelta del rappresentante, vedi i **quattro casi** spiegati sopra.\
+**Scrivere tra un passaggio e l'altro "ENTRO IN"**
+
+* unify(1,7) = siamo nel terzo caso = union(1,7) -> rappresentante: 1&#x20;
+* unify(2,8) = siamo nel terzo caso = union(2,8) -> rappresentante: 2
+* unify(3,9) = siamo nel secondo caso = union(3,9) -> rappresentante: 3
+* unify(4,10) = siamo nel terzo caso = union(4,10) -> rappresentante: 4
+* unify(5,11) = siamo nel quarto caso = union(5,11) -> rappresentante: 11
+
+Non vado a 6,12. Devo prima tornare indietro.
+
+Riscrivo esattamente tutti i passaggi a partire dall'ultimo (tranne l'ultimo). In maniera simile, **devo scrivere tra un passaggio e l'altro "TORNO INDIETRO".**
+
+* unify(4,10) = siamo nel terzo caso = union(4,10) -> rappresentante: 4
+* unify(3,9) = siamo nel secondo caso = union(3,9) -> rappresentante: 3
+* unify(2,8) = siamo nel terzo caso = union(2,8) -> rappresentante: 2
+* unify(1,7) = siamo nel terzo caso = union(1,7) -> rappresentante: 1&#x20;
+
+Qui siccome mancano 6, 12 posso scrivere "ENTRO IN".
+
+Quindi:
+
+* ENTRO IN\
+  unify(6,12) = siamo nel quarto caso = union(6,12) -> rappresentante: 6
+
+### Passo 4: scrivere le classi di equivalenza
+
+Le classi di equivalenza ottenute sono:
+
+\{{1,7}, {2,8}, {3,9}, {4, 10}, {5,11}, {6,12\}}
+
+Scrivere in alto, sopra ogni classe, i vari rappresentanti presi prima, per ogni classe di equivalenza (1 2 3 4 11 e 6).
