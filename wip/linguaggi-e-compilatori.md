@@ -8,6 +8,8 @@ description: >-
 
 ## ER: costruire NFA a partire da un'espressione regolare
 
+
+
 Ci sono due passi fondamentali:
 
 1. Costruire l'**albero astratto**. Per farlo basta "risolvere" l'espressione regolare in maniera "spezzettata", a blocchi di parentesi.
@@ -346,3 +348,70 @@ Siccome si chiama follow, devo vedere in che forma sta tramite la tabella, e reg
 ![](<../.gitbook/assets/image (4).png>)
 
 follow(C): dove compare C? bBCe -> aggiungo e, primo caso ecc\
+
+
+## LR(0)
+
+### Traccia
+
+* S' -> S
+* S -> AB | aA
+* A -> bB | cAb | a
+* B -> Bb | BA | b
+
+### Regolette
+
+* **Prima** sposto il pallino di una posizione a destra, **poi** calcolo la chiusura
+* la **chiusura** si calcola mettendo l'insieme stesso + tutte le produzioni che hanno a sinistra, il primo simbolo dopo il pallino dell'insieme originale.
+
+### Svolgimento
+
+Inizialmente costruiamo I (é una I di Imola).
+
+Questo insieme si costruisce in questo modo: partiamo da S'. Da S' vado a S, quindi sicuramente metto S' -> S. Poi vado a vedere S dove va: S -> AB | aA. Possiamo continuare ad aggiungere le produzioni di A, ma poi ci fermiamo.&#x20;
+
+**Formalmente**:
+
+Calcoliamo closure di I.&#x20;
+
+I = { S' -> S } J = I
+
+* S' -> •S => S -> •AB non appartiene a I => add
+* &#x20;             \=> S -> •aA non appartiene a I => add
+* I = { S' -> •S, S -> •AB, S -> •aA }
+
+Continuo:
+
+* S -> •AB -> chi ci sta a destra del pallno? A. Quindi aggiungo tutta la roba di A a quello giá esistente: I = { S' -> •S, S -> •AB, S -> •aA, A -> •bB, A -> cAb, A -> •a }
+
+Continuo:
+
+* S -> •aA => non succede niente perché c'é a piccola, che é terminale.
+
+Poi, aggiungiamo un pallino all'estrema sinistra di ogni parte destra di ogni produzione: { S' -> •S, S -> •AB, S -> •aA, A -> •bB, A -> cAb, A -> •a }
+
+Questo é il mio I0, ovvero il mio insieme di partenza. Da qua, mi calcolo tutti gli altri insiemi, facendomi la goto e la chiusura di ogni produzione.
+
+Prendo tutti i simboli a destra del pallino, e me li metto in colonna quando vado a calcolare goto.
+
+Il ragionamento qua é: chi é che produce •\<simbolo> (nella parte a destra)?\
+Es. Nel primo caso: chi é che ha S nella parte destra dopo il pallino? Solo S' -> •S. Siccome sto facendo la goto, sposto il pallino a destra e poi mi calcolo la closure.&#x20;
+
+Nella chiusura devo **SEMPRE** includere l'insieme originale E le produzioni dopo il pallino.\
+Ad esempio clos( S -> A•B), mi ritrovo dopo il pallino B, quindi aggiungeró B -> •Bb ecc ecc
+
+1. goto(I0, S) = clos({S' -> S•}) = { S' -> S•} => non abbiamo mai visto questo insieme quindi I1
+2. goto(I0, A) = clos({S -> A•B}) = { S' -> A•B, B -> •Bb, B -> •BA, B -> •b }
+3. goto(I0, a) = clos({S -> a•A, A -> a•})
+4. goto(I0, b) = clos(A -> b•B)
+5. goto(I0, c) = clos(A -> c•Ab)
+
+**NB**:  al passo 1, troviamo un qualcosa che ha giá il pallino alla sua estrema destra. Nonostante si tratti di un insieme che non abbiamo mai analizzato, non dobbiamo analizzarlo proprio perché il pallino é giá tutto a destra.
+
+Poi basta, proprio come l'esercizio sulle chiusure, continuo sino a quando non trovo piu nulla di nuovo.
+
+![](../.gitbook/assets/immagine.png)
+
+![](<../.gitbook/assets/immagine (2).png>)
+
+![](<../.gitbook/assets/immagine (1).png>)

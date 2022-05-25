@@ -42,6 +42,6 @@
 
 * [🧮 Algebra](incompleti/algebra.md)
 * [🌈 Computer Graphics](incompleti/computer-graphics.md)
-* [🔒 Sicurezza](incompleti/sicurezza/README.md)
-  * [Cifrario di Cesare](incompleti/sicurezza/cifrario-di-cesare.md)
+* [🔒 Sicurezza](wip/sicurezza/README.md)
+  * [Cifrario di Cesare](wip/sicurezza/cifrario-di-cesare.md)
 * [📟 Sistemi Digitali](incompleti/sistemi-digitali.md)
