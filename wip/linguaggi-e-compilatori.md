@@ -479,6 +479,10 @@ Ecco i **quattro casi** seguiti dal criterio di scelta del rappresentante:&#x20;
 4. 1 e 7, **uno dei due** è una variabile (è un α insomma)
    1. scelgo l'operatore
 
+**NOTA: devo ricordarmi che esiste anche l'approccio grafico, quindi non occorre riscrivere tutto da capo.**
+
+**Immagine di esempio: TODO**&#x20;
+
 L'ordine di scansione sarà quindi
 
 * 1,7
