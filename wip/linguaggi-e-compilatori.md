@@ -8,8 +8,6 @@ description: >-
 
 ## ER: costruire NFA a partire da un'espressione regolare
 
-
-
 Ci sono due passi fondamentali:
 
 1. Costruire l'**albero astratto**. Per farlo basta "risolvere" l'espressione regolare in maniera "spezzettata", a blocchi di parentesi.
@@ -92,13 +90,13 @@ Mi disegno i vari automi e li unisco tra loro.
 
 Guardando l'albero astratto, parti dall'estrema sinistra e cominci a fare piccoli sottoautomi. Man mano che risali l'albero unisci a seconda di quello che trovi.
 
-![disegno dell'automa finale, derivante dall'ER](<../.gitbook/assets/image (2).png>)
+![disegno dell'automa finale, derivante dall'ER](<../.gitbook/assets/image (2) (1).png>)
 
 ## NFA: usare subset construction per costruire un DFA partendo da un NFA
 
 ### Traccia
 
-![Automa originale](<../.gitbook/assets/image (9).png>)
+![Automa originale](<../.gitbook/assets/image (9) (1).png>)
 
 ### Cosa bisogna fare
 
@@ -160,7 +158,7 @@ Posso quindi disegnare l'automa (va bene anche la forma tabellare, in grassetto 
 
 ### Traccia
 
-![DFA](<../.gitbook/assets/image (1) (1).png>)
+![DFA](<../.gitbook/assets/image (1) (1) (1).png>)
 
 ### Risoluzione
 
@@ -345,7 +343,7 @@ A seconda della follow che sto facendo, mi vado a vedere dove sta la lettera del
 
 Siccome si chiama follow, devo vedere in che forma sta tramite la tabella, e regolarmi di conseguenza.
 
-![](<../.gitbook/assets/image (4).png>)
+![](<../.gitbook/assets/image (4) (1).png>)
 
 follow(C): dove compare C? bBCe -> aggiungo e, primo caso ecc\
 
@@ -457,7 +455,7 @@ Tre passi fondamentali:
 
 Qui non c'è molto da spiegare, c'è bisogno di molta pratica.
 
-![se vuoi fare la prova: avviare una visita in DFS. Se l'espressione che risulta è identica a quella della traccia, allora l'albero è stato costruito correttament](<../.gitbook/assets/image (5).png>)
+![se vuoi fare la prova: avviare una visita in DFS. Se l'espressione che risulta è identica a quella della traccia, allora l'albero è stato costruito correttament](<../.gitbook/assets/image (6).png>)
 
 ### Passo 2: stabilire l'ordine di visita DFS
 
@@ -525,3 +523,113 @@ Le classi di equivalenza ottenute sono:
 \{{1,7}, {2,8}, {3,9}, {4, 10}, {5,11}, {6,12\}}
 
 Scrivere in alto, sopra ogni classe, i vari rappresentanti presi prima, per ogni classe di equivalenza (1 2 3 4 11 e 6).
+
+## DOM
+
+### TODO
+
+## Inference Graph
+
+### Traccia
+
+Dato il seguente BB in 3AC I costruire l’interference graph I applicare all’IG l’algoritmo di colorazione specifico per la register selection con k = 2
+
+* a=1
+* b=2
+* c=a+1
+* d=a+4
+* e=b+1
+* f=e+d
+* g=a+2
+* h=f+g
+* i=c+6
+* l=g+2
+
+### Passi
+
+1. Disegnare il grafo
+2. Eliminare i nodi uno ad uno
+3. Colorare il grafo
+
+### Regolette
+
+Dalla traccia k = 2, abbiamo i seguenti **casi**:
+
+1. un nodo ha il minor numero di archi (o nessuno) < k -> ottimo, lo elimino
+2. altrimenti, se ho più nodi che hanno tutti numero di archi >= k -> elimino il nodo con il maggior numero di archi in assoluto in tutto il grafo\
+   In altre parole: quando non posso fare nulla (la condizione è MINORE di k, **non MINORE UGUALE**) tolgo il nodo con più archi in assoluto.
+
+### Passo 1: disegno tutto il grafo
+
+Disegnamo tutti gli stati a b c d e f g h i l
+
+Innanzitutto vediamo a: dobbiamo trovare l'ultima occorrenza di a: appare in g. Quindi devo collegare a con tutti gli "stati" che vengono prima di g (g escluso). Ripeto per tutti gli stati.
+
+![questo è il grafo che risulta: normalmente si fa con la biro blu e tanta pazienza, ma soprattutto tutti gli stati sono in riga, così stiamo più comodi a disegnare l'intero grafo](<../.gitbook/assets/image (9).png>)
+
+### Passo 2: eliminare i nodi uno ad uno
+
+Adesso: l'obiettivo è quello di eliminare pian piano tutti i nodi. Dalla traccia k = 2.
+
+Iniziamo: chi è che ha il minor numero di archi in assoluto? il nodo l (è una L).
+
+Ridisegnamo il grafo, facendo una bella croce su l.
+
+![](<../.gitbook/assets/image (5).png>)
+
+Rimuoviamo tutti gli archi di l e andiamo a ridisegnare il grafo.
+
+Passo successivo: qual è il nodo con il minor numero di archi? i naturalmente, poiché ha solo un arco.
+
+Rimuoviamo allora i. (caso&#x20;
+
+![](<../.gitbook/assets/image (7).png>)
+
+**Passo successivo:** qual è il nodo col minor numero di archi? Eh, ma qui c'è il caso 2: infatti la condizione è MINORE DI 2, NON minore uguale a 2. Quindi stiamo nel caso 2.
+
+Il caso 2 ci dice "prendi quello col maggior numero di archi e toglilo.
+
+In questo caso è C, perché ne ha 7, e quindi tolgo C. Ci scrivo però anche un bel "TOSPILL" a destra. È importante!
+
+![](<../.gitbook/assets/image (4).png>)
+
+Proseguo finché non arrivo alla fine.
+
+![](<../.gitbook/assets/image (3).png>)
+
+Qua c'è un altro TOSPILL da fare!
+
+![](<../.gitbook/assets/image (2).png>)
+
+Finalmente ho finito!
+
+### Passo 3: coloro il grafo
+
+Parti dalla fine (G10).
+
+Regolette:
+
+1. all'inizio, il primo nodo avrà il colore che preferiamo (es. rosso)
+2. il nodo successivo, dovrà avere un colore diverso da quello vicino
+3. i TOSPILL sono incolori!
+
+Quindi:
+
+* a V10 (e) assegno verde
+* a V9 (d) assegno rosso dato che l'adiacente è verde
+* a V8 (b) assegno verde, poiché il rosso l'avevo già assegnato
+* a V7 (a) non assegno alcun colore: c'è il tospill
+* a V6 (f) assegno rosso
+* a V5 (g) assegno verde, poiché il rosso l'avevo già assegnato
+* a V4 (h) assegno rosso, poiché il verde l'avevo già assegnato
+* a V3 (c) non assegno alcun colore: c'è il tospill
+* a V2 (i) assegno rosso, poiché il verde l'avevo già assegnato
+* a V1 (l) assegno verde (ma posso anche assegnare il rosso)
+
+**NOTA BENE**: per la buona riuscita di questo esercizio, è opportuno segnarsi sul grafo di partenza i colori -> questo perché può essere utile vedere a colpo d'occhio chi è adiacente a chi.
+
+Non richiesto dall'esercizio, ma riportato comunque per comodità, ecco la colorazione del grafo finale:
+
+![](<../.gitbook/assets/image (1).png>)
+
+&#x20;

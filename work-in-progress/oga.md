@@ -106,7 +106,7 @@ Le motivazioni alla base dell'istituzione di un'azienda possono essere diverse, 
 
 ### Da cosa è costituita un'azienda
 
-![il lavoro, il capitale e l'organizzazione](<../.gitbook/assets/image (1) (1) (1) (1) (1).png>)
+![il lavoro, il capitale e l'organizzazione](<../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png>)
 
 Da tre cose:
 
@@ -418,7 +418,7 @@ Esistono **due tipi** di valutazione**:**
 
 ### SWOT
 
-![da non confondere con la swat](<../.gitbook/assets/image (7).png>)
+![da non confondere con la swat](<../.gitbook/assets/image (7) (1).png>)
 
 **Strumento** che fornisce **quattro prospettive** da cui analizzare il business.
 
@@ -593,17 +593,17 @@ Bisogna **scrivere su ogni post-it un'idea** che poi verrà attaccata nel riquad
 
 Di solito **si parte dai segmenti di clientela.**
 
-![domande utili per redigere un canvas ](<../.gitbook/assets/image (1).png>)
+![domande utili per redigere un canvas ](<../.gitbook/assets/image (1) (1).png>)
 
 ## Jobs (to be done) Theory
 
-![sì esatto, è proprio lui: l'omino che spara il fuoco (del quale non possiamo dire il nome)](<../.gitbook/assets/image (2) (1).png>)
+![sì esatto, è proprio lui: l'omino che spara il fuoco (del quale non possiamo dire il nome)](<../.gitbook/assets/image (2) (1) (1).png>)
 
 I clienti non si limitano ad acquistare beni, ma chiedono loro di **svolgere un compito molto specifico** a seconda della situazione, ossia è come se "assumessero" i prodotti e li "licenziassero" quando non ne hanno più bisogno.
 
 ### Teoria "cliento-centrista"
 
-![questo è Copernico; la teoria sua afferma che la terra sta ferma e il mondo gli gira intorno, tuttavia in questo caso il meme è filosofico: nonostante ciò che succede oggi, il meme ha ragione o no?](<../.gitbook/assets/image (2) (1) (1).png>)
+![questo è Copernico; la teoria sua afferma che la terra sta ferma e il mondo gli gira intorno, tuttavia in questo caso il meme è filosofico: nonostante ciò che succede oggi, il meme ha ragione o no?](<../.gitbook/assets/image (2) (1) (1) (1).png>)
 
 Il cliente è **al centro di tutto**. Fino a qualche anno fa, l'imprenditore aveva la sua attenzione a vendere i prodotti, ora il focus lo ha sul cliente.
 
@@ -637,7 +637,7 @@ C'è una **continua ricerca** del miglior modo possibile per **trovare la novit�
 
 ## Progettazione (simil-Agile UCD)
 
-![](<../.gitbook/assets/image (1) (1) (1).png>)
+![](<../.gitbook/assets/image (1) (1) (1) (1).png>)
 
 Se non conosci o non hai mai fatto Interazione Uomo Macchina (IUM), le fasi vengono comunque spiegate. È comunque opportuno rileggerle quindi si suggerisce di **non saltare questa sezione,** ma fa comodo ricordarsi che sono simili a quelle di IUM.&#x20;
 
@@ -729,7 +729,7 @@ Servono per **immaginare** possibili futuri, ma non possono predire il futuro.
 
 ## Introduzione al business planning
 
-![mappa: pianificazione, bussola: business plan](<../.gitbook/assets/image (4) (1).png>)
+![mappa: pianificazione, bussola: business plan](<../.gitbook/assets/image (4) (1) (1).png>)
 
 ### Pianificazione e BP
 
