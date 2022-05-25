@@ -1,7 +1,7 @@
 ---
 description: >-
   aa. 2021-2022: si ringraziano gli studenti R. B. e I. S. per le correzioni e
-  revisioni
+  revisioni, M. A. per le immagini degli esercizi LR(0)
 ---
 
 # 🖥 Linguaggi e Compilatori
