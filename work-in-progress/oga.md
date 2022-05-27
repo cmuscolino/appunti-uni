@@ -409,7 +409,7 @@ Serve a conoscere lo stato di salute della propria posizione sul mercato e agire
 
 Può essere uno spunto per apportare **modifiche incrementali** (ancora Agile) o per **innovare** il modello.
 
-![Non fare mai la valutazione porta al fallimento](<../.gitbook/assets/image (5) (1) (1).png>)
+![Non fare mai la valutazione porta al fallimento](<../.gitbook/assets/image (5) (1) (1) (1).png>)
 
 Esistono **due tipi** di valutazione**:**
 
@@ -418,7 +418,7 @@ Esistono **due tipi** di valutazione**:**
 
 ### SWOT
 
-![da non confondere con la swat](<../.gitbook/assets/image (7) (1).png>)
+![da non confondere con la swat](<../.gitbook/assets/image (7) (1) (1).png>)
 
 **Strumento** che fornisce **quattro prospettive** da cui analizzare il business.
 

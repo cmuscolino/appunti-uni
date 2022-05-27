@@ -96,7 +96,7 @@ Guardando l'albero astratto, parti dall'estrema sinistra e cominci a fare piccol
 
 ### Traccia
 
-![Automa originale](<../.gitbook/assets/image (9) (1).png>)
+![Automa originale](<../.gitbook/assets/image (9) (1) (1).png>)
 
 ### Cosa bisogna fare
 
@@ -361,6 +361,9 @@ follow(C): dove compare C? bBCe -> aggiungo e, primo caso ecc\
 
 * **Prima** sposto il pallino di una posizione a destra, **poi** calcolo la chiusura
 * la **chiusura** si calcola mettendo l'insieme stesso + tutte le produzioni che hanno a sinistra, il primo simbolo dopo il pallino dell'insieme originale.
+* anche per un **discorso di coerenza:** quando mi ritrovo in una situazione tipo:\
+  (I0,A) = {S'->A•B} = clos({S'->A•B}) = {S'->A•B, DEVO AGGIUNGERE ANCHE LA ROBA DI B.}\
+  In caso la roba di B abbiamo altra roba che va in altre lettere (ad esempio se ho aggiunto B -> •Cx, DEVO AGGIUNGERE ANCHE LA ROBA DI C).
 
 ### Svolgimento
 
@@ -441,9 +444,10 @@ Tre passi fondamentali:
       * Poi i ->
    4. **NORMALMENTE** salvo dove diversamente specificato, l'associatività è tutta a **SINISTRA DI TUTTO**
       * vale a dire: se ho 'a1 x a2 x a3' devo immaginarmele come '(a1 x a2) x a3' come se a2 fosse in mezzo e decidesse a chi unirsi... quindi posso mettere le parentesi
-   5. Quando sto disegnando l'albero, e noto che α1 l'ho già disegnato da qualche parte, basta fare un cerchio che va dall'originale alla posizione attuale (dovrei avrei disegnato α1).
+   5. Quando sto disegnando l'albero, e noto che α1 l'ho già disegnato da qualche parte, **devo** fare un cerchio che va dall'originale alla posizione attuale (dovrei avrei disegnato α1).
 2. **Ordine DFS**
    1. Quando stabilisco l'ordine di visita, **non devo contare** i "buchi" lasciati dai cerchi "al posto di α1"
+   2. **NON ESISTE UNA DFS UNICA**
 3. **Unify e scelta del rappresentante** - **** presi a coppie, si verificano questi casi:
    1. non si verifica mai
    2. 1 e 7 rappresentano lo **stesso tipo** (esempio, sono due α)
@@ -462,11 +466,11 @@ Qui non c'è molto da spiegare, c'è bisogno di molta pratica.
 
 **Esercizio base "normale"**
 
-![se vuoi fare la prova: avviare una visita in DFS. Se l'espressione che risulta è identica a quella della traccia, allora l'albero è stato costruito correttamente](<../.gitbook/assets/image (6) (1).png>)
+![se vuoi fare la prova: avviare una visita in DFS. Se l'espressione che risulta è identica a quella della traccia, allora l'albero è stato costruito correttamente](<../.gitbook/assets/image (6) (1) (1).png>)
 
 Esercizio difficile: priorità invertita (prima-> , poi x... normalmente è il contrario) e **associatività a destra**
 
-![](<../.gitbook/assets/image (6).png>)
+![](<../.gitbook/assets/image (6) (1).png>)
 
 ### Passo 2: stabilire l'ordine di visita DFS
 
@@ -494,52 +498,11 @@ Nel caso difficile devo prendo 1 e 18.
 
 **Risoluzione caso difficile:**
 
-****![](<../.gitbook/assets/image (11).png>)****![](<../.gitbook/assets/image (1).png>)****
+****![](<../.gitbook/assets/image (11) (1).png>)****![](<../.gitbook/assets/image (1).png>)****
 
 **DEVO USARE l'approccio grafico, quindi non occorre riscrivere tutto da capo.**
 
-Qui sotto, una possibile soluzione senza approccio grafico del caso semplice.
-
-Non si raccomanda di usare questo approccio, perché porta a una scrittura prolissa dell'esercizio, dovendo ricopiare ogni volta ciò che accade.
-
-**Risoluzione caso semplice:**
-
-L'ordine di scansione sarà quindi
-
-* 1,7
-* 2,8
-* 3,9
-* 4,10
-* 5,11
-
-Torno indietro e scopro anche 6,12
-
-* 6,12
-
-Chiamo le unify in questo ordine, per la scelta del rappresentante, vedi i **quattro casi** spiegati sopra.\
-**Scrivere tra un passaggio e l'altro "ENTRO IN"**
-
-* unify(1,7) = siamo nel terzo caso = union(1,7) -> rappresentante: 1&#x20;
-* unify(2,8) = siamo nel terzo caso = union(2,8) -> rappresentante: 2
-* unify(3,9) = siamo nel secondo caso = union(3,9) -> rappresentante: 3
-* unify(4,10) = siamo nel terzo caso = union(4,10) -> rappresentante: 4
-* unify(5,11) = siamo nel quarto caso = union(5,11) -> rappresentante: 11
-
-Non vado a 6,12. Devo prima tornare indietro.
-
-Riscrivo esattamente tutti i passaggi a partire dall'ultimo (tranne l'ultimo). In maniera simile, **devo scrivere tra un passaggio e l'altro "TORNO INDIETRO".**
-
-* unify(4,10) = siamo nel terzo caso = union(4,10) -> rappresentante: 4
-* unify(3,9) = siamo nel secondo caso = union(3,9) -> rappresentante: 3
-* unify(2,8) = siamo nel terzo caso = union(2,8) -> rappresentante: 2
-* unify(1,7) = siamo nel terzo caso = union(1,7) -> rappresentante: 1&#x20;
-
-Qui siccome mancano 6, 12 posso scrivere "ENTRO IN".
-
-Quindi:
-
-* ENTRO IN\
-  unify(6,12) = siamo nel quarto caso = union(6,12) -> rappresentante: 6
+Qui sopra, una possibile soluzione con approccio grafico del caso difficile.
 
 ### Passo 4: scrivere le classi di equivalenza
 
@@ -555,7 +518,35 @@ Per l'esercizio difficile basta fare la stessa cosa.
 
 ## DOM
 
-### TODO
+### Traccia
+
+![](<../.gitbook/assets/image (6).png>)
+
+### Regolette
+
+1. DFS, Post-Order, e Reverse PostOrder
+   1. DFS come ti pare. Fai la classica se non sai come farla.
+2. Post-order
+   1. Come ti pare, fai la visita per livelli a partire dall'ultimo se non sai come fare.
+3. Reverse post-order (RPO)
+   1. Riscrivi questo ordine al contrario
+4. DOM(nodo partenza) = 1, DOM(2) = ... = DOM(9) = {2, ..., 9}
+   1. Cominci ad applicare algoritmo DOM: per ogni nodo seguendo la RPO, vedi chi sono i predecessori e:
+      1. se è uno, fai DOM(predecessore) U elemento attuale (es. ordine 2, 3, DOM(3) = PREDS(3) = {2} => devo mettere DOM(2) + 3 => {2, 3}
+      2. se è più di uno, fai intersezione (roba comune) tra gli elementi comuni e poi unisci quello attuale  &#x20;
+
+### QA
+
+* la DFS mi viene diversa, come faccio?
+  * _NON ESISTE UNA DFS UNICA_
+* il POST-ORDER mi viene diverso, come faccio?
+  * NON ESISTE UN POST ORDER UNICO. Di solito si fa la visita per livelli partendo dall'ultimo.
+
+
+
+### Svolgimento
+
+![](<../.gitbook/assets/image (3).png>)
 
 ## IG: Inference Graph - colorazione grafo
 
@@ -594,7 +585,7 @@ Disegnamo tutti gli stati a b c d e f g h i l
 
 Innanzitutto vediamo a: dobbiamo trovare l'ultima occorrenza di a: appare in g. Quindi devo collegare a con tutti gli "stati" che vengono prima di g (g escluso). Ripeto per tutti gli stati.
 
-![questo è il grafo che risulta: normalmente si fa con la biro blu e tanta pazienza, ma soprattutto tutti gli stati sono in riga, così stiamo più comodi a disegnare l'intero grafo](<../.gitbook/assets/image (9).png>)
+![questo è il grafo che risulta: normalmente si fa con la biro blu e tanta pazienza, ma soprattutto tutti gli stati sono in riga, così stiamo più comodi a disegnare l'intero grafo](<../.gitbook/assets/image (9) (1).png>)
 
 ### Passo 2: eliminare i nodi uno ad uno
 
@@ -604,7 +595,7 @@ Iniziamo: chi è che ha il minor numero di archi in assoluto? il nodo l (è una 
 
 Ridisegnamo il grafo, facendo una bella croce su l.
 
-![](<../.gitbook/assets/image (5) (1).png>)
+![](<../.gitbook/assets/image (5) (1) (1).png>)
 
 Rimuoviamo tutti gli archi di l e andiamo a ridisegnare il grafo.
 
@@ -612,7 +603,7 @@ Passo successivo: qual è il nodo con il minor numero di archi? i naturalmente, 
 
 Rimuoviamo allora i. (caso&#x20;
 
-![](<../.gitbook/assets/image (7).png>)
+![](<../.gitbook/assets/image (7) (1).png>)
 
 **Passo successivo:** qual è il nodo col minor numero di archi? Eh, ma qui c'è il caso 2: infatti la condizione è MINORE DI 2, NON minore uguale a 2. Quindi stiamo nel caso 2.
 
@@ -624,7 +615,7 @@ In questo caso è C, perché ne ha 7, e quindi tolgo C. Ci scrivo però anche un
 
 Proseguo finché non arrivo alla fine.
 
-![](<../.gitbook/assets/image (3).png>)
+![](<../.gitbook/assets/image (3) (1).png>)
 
 Qua c'è un altro TOSPILL da fare!
 
@@ -663,6 +654,24 @@ Non richiesto dall'esercizio, ma riportato comunque per comodità, ecco la color
 
 ## ER: Erschev e assembly
 
-![Questo è Andrey Erschev, il tizio dell'algoritmo](<../.gitbook/assets/image (4).png>) ![Da non confondere con "Er Che", ossia Ernesto Cheguevara](<../.gitbook/assets/image (5).png>)
+![Questo è Andrey Erschev, il tizio dell'algoritmo](<../.gitbook/assets/image (4).png>) ![Da non confondere con "Er Che", ossia Ernesto Cheguevara](<../.gitbook/assets/image (5) (1).png>)
 
-###
+### Regolette
+
+* prendi il testo dell'esercizio
+* costruisci un albero facendo dfs, utilizzando ultima riga. Ignori i valori istantanei.
+* fai una dfs e devi seguire l'algoritmo:
+
+![](<../.gitbook/assets/image (10).png>)
+
+* generi il codice, prendi tutto, lo metti in lista et voilà!
+
+### Esercizio e albero
+
+![](<../.gitbook/assets/image (7).png>)
+
+### Risoluzione
+
+![NB: LI è sbagliato](<../.gitbook/assets/image (5).png>)
+
+![](<../.gitbook/assets/image (8).png>)
