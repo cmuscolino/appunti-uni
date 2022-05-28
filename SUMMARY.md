@@ -11,12 +11,6 @@
 
 ## ⛑ WIP
 
-* [🌐 LTW](wip/ltw.md)
-* [🌡️Algoritmi 2](wip/algoritmi-2/README.md)
-  * [BFS](wip/algoritmi-2/bfs.md)
-  * [DFS](wip/algoritmi-2/dfs.md)
-* [🖥 Linguaggi e Compilatori](wip/linguaggi-e-compilatori.md)
-
 ## ✅ Completi
 
 * [👤 IUM](completi/ium/README.md)
@@ -37,11 +31,16 @@
   * [Architectural Pattern](completi/ingegneria-del-software/architectural-pattern.md)
 * [🏢 OGA](work-in-progress/oga.md)
 * [🖨️ Architetture](completi/architetture.md)
+* [🖥 Linguaggi e Compilatori](completi/linguaggi-e-compilatori.md)
 
 ## ❌ Incompleti
 
+* [🌡️Algoritmi 2](incompleti/algoritmi-2/README.md)
+  * [BFS](incompleti/algoritmi-2/bfs.md)
+  * [DFS](incompleti/algoritmi-2/dfs.md)
 * [🧮 Algebra](incompleti/algebra.md)
 * [🌈 Computer Graphics](incompleti/computer-graphics.md)
+* [🌐 LTW](incompleti/ltw.md)
 * [🔒 Sicurezza](wip/sicurezza/README.md)
   * [Cifrario di Cesare](wip/sicurezza/cifrario-di-cesare.md)
 * [📟 Sistemi Digitali](incompleti/sistemi-digitali.md)

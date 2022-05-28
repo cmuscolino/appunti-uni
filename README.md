@@ -27,3 +27,8 @@ Vuoi contattarmi? --> [contatti](start/contatti/ "mention")&#x20;
 ### Licenza
 
 Tutti gli appunti sono rilasciati sotto [Licenza CC-BY-NC](https://creativecommons.org/licenses/by-nc/4.0/deed.it).
+
+### FAQ
+
+* Finirai mai gli appunti "incompleti"?
+  * è molto difficile, ma alcuni di essi (soprattutto quelli che prevedono esercizi) potrebbero venire aggiornati e completati un giorno
