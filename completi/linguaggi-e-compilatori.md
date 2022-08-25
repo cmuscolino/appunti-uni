@@ -584,7 +584,9 @@ Dalla traccia k = 2, abbiamo i seguenti **casi**:
 
 Disegnamo tutti gli stati a b c d e f g h i l
 
-Innanzitutto vediamo a: dobbiamo trovare l'ultima occorrenza di a: appare in g. Quindi devo collegare a con tutti gli "stati" che vengono prima di g (g escluso). Ripeto per tutti gli stati.
+Innanzitutto vediamo a: dobbiamo trovare l'ultima occorrenza di a: appare in g. Quindi devo collegare a con tutti gli "stati" che vengono DOPO sè stesso e prima di g (g escluso). Ripeto per tutti gli stati.
+
+**ESEMPIO**: c lo collegherò con gli "stati" d, e, f, g, h perchè inizio da d e compare l'ultima volta in i.
 
 ![questo è il grafo che risulta: normalmente si fa con la biro blu e tanta pazienza, ma soprattutto tutti gli stati sono in riga, così stiamo più comodi a disegnare l'intero grafo](<../.gitbook/assets/image (9) (1).png>)
 
